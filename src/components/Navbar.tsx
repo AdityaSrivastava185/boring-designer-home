@@ -14,7 +14,7 @@ const Navbar = () => {
                     <div className='uppercase md:pr-10 font-extrabold'>boringdesigner.</div>
                     <div className='hidden md:block'>
                         <ul className='flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0 md:space-x-8 uppercase text-sm text-muted-foreground transition-colors duration-300'>
-                            <Link href="/" className='font-medium hover:text-foreground'>home</Link>
+                            <Link href="/" className='font-medium hover:text-foreground'>explore</Link>
                             <Link href="/manifesto" className='font-medium hover:text-foreground transition-colors duration-300'>manifesto</Link>
                             <Link href="/portfolio-companies" className='font-medium hover:text-foreground transition-colors duration-300'>portfolio companies</Link>
                             <Link href="/pricing" className='font-medium hover:text-foreground transition-colors duration-300'>pricing</Link>

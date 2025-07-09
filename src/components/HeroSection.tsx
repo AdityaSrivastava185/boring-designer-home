@@ -19,7 +19,7 @@ const Hero = () => {
           </p>
         </div>
         <div className="text-foreground w-full">
-          <h1 className="text-center uppercase font-bold text-[8vw] md:text-[5vw] max-w-[90vw] md:max-w-[100vw] leading-20">
+          <h1 className="text-center uppercase font-bold text-[8vw] md:text-[5vw] max-w-[90vw] md:max-w-[100vw] leading-20 title">
             Built to convert. <br /> Designed to speak.
           </h1>
         </div>
