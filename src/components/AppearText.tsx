@@ -23,9 +23,9 @@ const AppearText = () => {
                     duration: 0.5,
                     ease: 'easeInOut',
                 }}
-                className='text-foreground text-5xl font-bold bebas tracking-tighter uppercase text-left '
+                className='text-foreground text-3xl md:text-5xl font-bold bebas md:tracking-tighter uppercase text-left md:text-center '
             >
-                <div className='md:my-52'>
+                <div className='py-7 md:py-0 md:my-17'>
                     {word}
                 </div>
             </motion.div>

@@ -140,3 +140,14 @@
   font: 'Bebas Neue', cursive;
 }
 
+@layer utilities {
+  @keyframes marquee {
+    to {
+      transform: translateX(-50%);
+    }
+  }
+
+  .animate-marquee {
+    animation: marquee var(--duration, 30s) linear infinite;
+  }
+}

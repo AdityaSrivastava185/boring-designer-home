@@ -45,16 +45,16 @@ const containerQuestionsOne = [{
 
 const Faqs = () => {
     return (
-        <div className='my-52'>
-            <div className=''>
-                <h1 className='text-bebas font-bold text-7xl tracking-tighter text-left uppercase'>everything you need to know</h1>
+        <div className='md:pt-17 border-b-2 border-border py-7 md:py-0'>
+            <div className='md:max-w-[50%]'>
+                <h1 className='text-bebas font-bold text-5xl md:text-7xl tracking-tighter text-left uppercase'>( everything you need to know )</h1>
             </div>
             <div className='flex flex-col  items-center justify-center inset-0 w-full h-auto mx-auto md:my-10 '>
                 <div className='divide-y-2 divide-dashed divide-secondary-border w-full '>
                     {
                         containerQuestionsOne.map((item, index) => (
-                            <div key={index} className='my-10 p-5 rounded-lg flex flex-col md:flex-row items-center justify-start md:gap-24'>
-                                <div className='flex items-center justify-center h-6 w-6 bg-foreground text-background rounded-full text-xs font-bold uppercase p-6'>
+                            <div key={index} className='md:my-10 p-5 rounded-lg flex flex-col md:flex-row items-center justify-start md:gap-24'>
+                                <div className='flex items-center justify-center h-6 w-6 bg-foreground text-background rounded-full text-xs font-bold uppercase p-6 my-3 md:my-0'>
                                     {item.id}
                                 </div>
                                 <h2 className='text-foreground text-sm uppercase text-wrap md:max-w-[10vw] '>{item.question}</h2>

@@ -4,8 +4,13 @@ import React from "react";
 import Navbar from "./Navbar";
 import { Button } from "./ui/button";
 import { useRouter } from "next/navigation";
-import { HeroVideo } from "@/utils/VideoComponent";
-import AppearText from "./AppearText";
+import MarqueeFooter from "@/utils/MarqueeFooter";
+
+const HomeDetails = [
+  { title: "manifesto", description: "Deception in Simplicity. Mastery in Every Pixel. We turn “boring” into a powerhouse of high-impact design, redefine what's possible with subscription-based web design" },
+  { title: "companies", description: "Deception in Simplicity. Mastery in Every Pixel. We turn “boring” into a powerhouse of high-impact design, redefine what's possible with subscription-based web design" },
+  { title: "go pro", description: "A necessary investment for your startup or your personal brand.Boring Designer is your unfair design advantage" },
+]
 
 const Hero = () => {
   const router = useRouter();
@@ -13,54 +18,39 @@ const Hero = () => {
   return (
     <>
       <Navbar />
-      <div className="flex flex-col items-start justify-center min-h-[70vh] px-4 md:px-8 lg:px-12">
-        <div className="my-5 md:my-10 w-full">
-          <p className="text-sm md:text-base text-secondary-foreground uppercase font-medium tracking-wide text-left md:text-left">
-            Every pixel handpicked, every client - rare
-          </p>
-        </div>
-        <div className="text-foreground w-full">
-          <h1 className="text-left uppercase font-bold text-[8vw] md:text-[5vw] max-w-[90vw] md:max-w-[100vw] leading-20 bebas">
-            Built to convert. <br /> Designed to speak.
-          </h1>
-        </div>
-        <div className="w-full md:max-w-[50vw] my-6 md:my-10 text-justify">
-          <p className="text-lg md:text-md text-secondary-bebas uppercase text-justify font-medium leading-relaxed text-wrap">
-            You build the startup. We make it look unstoppable.
-            We co-design high-trust, conversion-obsessed websites for founders, developers, and indie hackers.
-          </p>
-        </div>
-        <div className="flex flex-col md:flex-row gap-4">
-          <Button
-            onClick={() => router.push("/pricing")}
-            className="uppercase font-medium bg-lime-300 text-black hover:bg-lime-400 transition-colors duration-300"
-          >
-            Explore Pricing
-          </Button>
-          <Button
-            onClick={() => router.push("/vault")}
-            className="uppercase font-medium bg-secondary text-foreground border border-border hover:bg-foreground hover:text-background transition-colors duration-300"
-          >
-            Schedule a Call
-          </Button>
+      <MarqueeFooter/>
+      <div className="border-b-2 border-border">
+        <div className="hidden lg:grid lg:grid-cols-3 gap-4 md:my-10">
+          {HomeDetails.map((item, index) => (
+            <div key={index} className="border-l-1 border-r-1 border-border md:px-5 overflow-hidden ">
+              <div className=" text-foreground aspect-[5/1] md:flex md:items-center md:justify-center w-full">
+                <h2 className="uppercase title text-left md:px-4 md:leading-none md:text-[clamp(2rem,2vw,10rem)] md:tracking-tighter w-full">
+                  {item.title}
+                </h2>
+              </div>
 
+              <div className="md:px-4">
+                <p className="text-wrap text-sm uppercase bebas text-muted-foreground">
+                  {item.description}
+                </p>
+              </div>
+            </div>
+          ))}
         </div>
-        <div className="w-full mt-10">
-          <HeroVideo />
-        </div>
-        <div className="w-full mt-10 flex flex-col md:flex-row items-center md:items-end justify-between gap-6 md:gap-12">
-          <p className="text-2xl md:text-7xl font-bold text-foreground uppercase leading-17">
-            where brilliance <br /> leaves a mark
-          </p>
-          <div className="md:max-w-[20vw] flex flex-col items-end justify-end h-full ">
-            <div className="">
-              <p className="font-medium text-muted-foreground uppercase leading-relaxed">
-                Place where the underestimation reveals the beast you never saw coming…
-              </p>
+        <div>
+          <div className="md:max-w-[70%] my-10 md:my-0">
+            <p className="text-xl md:text-5xl font-bold md:text-left uppercase md:px-4 bebas text-wrap">
+              You build the startup. We make it look unstoppable . We co-design high-trust, conversion-obsessed websites for founders, developers, and indie hackers
+            </p>
+          </div>
+          <div className="my-5 md:px-5">
+            <div onClick={() => router.push("/pricing")}>
+              <Button className='uppercase cursor-pointer md:font-medium transition-colors duration-300 md:px-7 rounded-full'>
+                be pro
+              </Button>
             </div>
           </div>
         </div>
-
       </div>
     </>
   );

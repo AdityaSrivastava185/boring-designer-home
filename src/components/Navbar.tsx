@@ -8,7 +8,7 @@ import { useRouter } from 'next/navigation';
 const Navbar = () => {
     const router = useRouter()
     return (
-        <nav className="w-full mb-2 sm:mb-10 sticky top-0 z-50 bg-background px-4 py-5 rounded-full shadow-2xl">
+        <nav className="w-full md:mb-2 bg-background px-4 py-2 rounded-full shadow-2xl">
             <div className='flex items-center justify-between max-w-7xl mx-auto'>
                 <div className='flex items-center space-x-4'>
                     <div className='uppercase md:pr-10 font-extrabold'>boringdesigner.</div>
@@ -22,9 +22,9 @@ const Navbar = () => {
                         </ul>
                     </div>
                 </div>
-                <div className='flex items-center justify-center space-x-4 '>
+                <div className='hidden md:flex items-center justify-center space-x-4 '>
                     <div onClick={() => router.push("/pricing")}>
-                        <Button className='uppercase cursor-pointer font-medium bg-lime-300 hover:bg-lime-400 transition-colors duration-300'>
+                        <Button className='uppercase cursor-pointer font-medium bg-foreground transition-colors duration-300'>
                             be pro
                         </Button>
                     </div>

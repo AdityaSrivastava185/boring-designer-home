@@ -2,11 +2,11 @@ import React from 'react';
 
 export default function Pricing() {
   return (
-    <div className=" px-4 py-10">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
+    <div className="md:pt-17">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
 
         {/* $500 Plan */}
-        <div className="border  bg-[#111] rounded-xl p-6">
+        <div className="border bg-[#111] rounded-xl p-6">
           <div className="flex justify-between items-center mb-6">
             <h2 className="text-4xl font-bold">$500<span className="text-base font-normal"> /MONTH</span></h2>
             <button className="text-xl font-bold text-white rounded-full w-8 h-8 flex items-center justify-center">+</button>
