@@ -13,14 +13,14 @@ const Hero = () => {
   return (
     <>
       <Navbar />
-      <div className="flex flex-col items-center justify-center min-h-[70vh] px-4 md:px-8 lg:px-12">
+      <div className="flex flex-col items-start justify-center min-h-[70vh] px-4 md:px-8 lg:px-12">
         <div className="my-5 md:my-10 w-full">
-          <p className="text-sm md:text-base text-secondary-foreground uppercase font-medium tracking-wide text-center md:text-center">
+          <p className="text-sm md:text-base text-secondary-foreground uppercase font-medium tracking-wide text-left md:text-left">
             Every pixel handpicked, every client - rare
           </p>
         </div>
         <div className="text-foreground w-full">
-          <h1 className="text-center uppercase font-bold text-[8vw] md:text-[5vw] max-w-[90vw] md:max-w-[100vw] leading-20 bebas">
+          <h1 className="text-left uppercase font-bold text-[8vw] md:text-[5vw] max-w-[90vw] md:max-w-[100vw] leading-20 bebas">
             Built to convert. <br /> Designed to speak.
           </h1>
         </div>

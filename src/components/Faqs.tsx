@@ -47,7 +47,7 @@ const Faqs = () => {
     return (
         <div className='my-52'>
             <div className=''>
-                <h1 className='text-bebas font-bold text-7xl tracking-tighter text-center uppercase'>everything you need to know</h1>
+                <h1 className='text-bebas font-bold text-7xl tracking-tighter text-left uppercase'>everything you need to know</h1>
             </div>
             <div className='flex flex-col  items-center justify-center inset-0 w-full h-auto mx-auto md:my-10 '>
                 <div className='divide-y-2 divide-dashed divide-secondary-border w-full '>

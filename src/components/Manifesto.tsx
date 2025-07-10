@@ -33,11 +33,11 @@ const Manifesto = () => {
                 <section className=" md:px-24 px-10 w-full">
                     <div className="container mx-auto">
                         <div className="sticky md:top-20 top-20">
-                            <h1 className="text-center text-7xl font-bold font-bebas tracking-tighter uppercase">
+                            <h1 className="text-left text-7xl font-bold font-bebas tracking-tighter uppercase">
                                 Manifesto
                             </h1>
 
-                            <div className="mt-10 text-md md:text-4xl md:text-center bebas leading-snug tracking-wide">
+                            <div className="mt-10 text-md md:text-4xl md:text-left bebas leading-snug tracking-wide">
                                 <span className="uppercase">
                                     Your Organization needs better and customized devices to work{" "}
                                 </span>

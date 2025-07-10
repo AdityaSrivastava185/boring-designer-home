@@ -6,7 +6,7 @@ const Pricing = () => {
         <div className='my-52'>
             <div className='my-52'>
                 <div className='bebas'>
-                    <h1 className='text-center text-7xl font-bold tracking-tighter uppercase'>be part of pro</h1>
+                    <h1 className='text-left text-7xl font-bold tracking-tighter uppercase'>be part of pro</h1>
                 </div>
                 <div className='flex flex-col md:flex-row items-center justify-between w-full h-auto mx-auto md:my-10'>
                     <div className='flex flex-col items-center justify-between w-full h-auto my-auto'>
@@ -28,10 +28,10 @@ const Pricing = () => {
             </div>
             <div>
                 <div className="mt-44 ">
-                    <h2 className="text-center text-foreground text-5xl uppercase font-bold tracking-tight bebas">
+                    <h2 className="text-left text-foreground text-5xl uppercase font-bold tracking-tight bebas">
                         design that doesn't confuse
                     </h2>
-                    <h2 className="text-center text-7xl uppercase font-bold tracking-tight bebas">
+                    <h2 className="text-left text-7xl uppercase font-bold tracking-tight bebas">
                         neither does pricing
                     </h2>
                 </div>
