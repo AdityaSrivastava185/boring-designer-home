@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Boring Designer - Place where brilliance leaves a mark",
+  bebas: "Boring Designer - Place where brilliance leaves a mark",
   description: "Boring Designer brings everything you need into one place—from subscription-based design services to a thriving hub where creators, founders, and innovators build, grow, and connect.",
 };
 

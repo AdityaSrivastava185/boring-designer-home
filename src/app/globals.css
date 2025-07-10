@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 @import "tailwindcss";
 @import "tw-animate-css";
@@ -81,7 +82,7 @@
 }
 
 .dark {
-  --secondary-title: #e9e9e9;
+  --secondary-bebas: #e9e9e9;
   --background: oklch(0.145 0 0);
   --foreground: oklch(0.985 0 0);
   --card: oklch(0.205 0 0);
@@ -123,8 +124,8 @@
     @apply bg-background text-foreground py-6 px-4 md:px-8 lg:px-12;
   }
 }
-/* 
-body{
+
+/* body{
   background-image: url('/bg.png');
   background-size: cover;
   background-position: center;
@@ -135,3 +136,7 @@ body{
 .title{
   font-family: 'Tilt Warp', cursive;
 }
+.bebas{
+  font: 'Bebas Neue', cursive;
+}
+

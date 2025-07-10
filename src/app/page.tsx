@@ -1,3 +1,7 @@
+import AppearText from "@/components/AppearText";
+import ContactUs from "@/components/ContactUs";
+import Faqs from "@/components/Faqs";
+import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import Manifesto from "@/components/Manifesto";
 import Pricing from "@/components/Pricing";
@@ -9,9 +13,11 @@ export default function Home() {
    <main>
     <HeroSection/>
     <Manifesto/>
-    <Services/>
-    <Projects/>
+    <AppearText/>
     <Pricing/>
+    <Faqs/>
+    <ContactUs/>
+    <Footer/>
    </main>
   );
 }

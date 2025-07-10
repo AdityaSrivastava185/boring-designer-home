@@ -40,10 +40,10 @@ export default function Pricing() {
 
         <div className="border  bg-gradient-to-b from-green-500 via-yellow-300 to-orange-500 rounded-xl p-6">
           <div className="flex justify-between items-center mb-6">
-            <h2 className="text-4xl text-background font-bold title">$500<span className=" text-background text-base font-normal title"> /MONTH</span></h2>
+            <h2 className="text-4xl text-background font-bold bebas">$500<span className=" text-background text-base font-normal bebas"> /MONTH</span></h2>
             <button className="text-xl font-bold text-background rounded-full w-8 h-8 flex items-center justify-center">+</button>
           </div>
-          <h3 className="text-xl mb-6 tracking-wide text-background title uppercase">SINGLE/MULTI LANDING PAGE DESIGN</h3>
+          <h3 className="text-xl mb-6 tracking-wide text-background bebas uppercase">SINGLE/MULTI LANDING PAGE DESIGN</h3>
 
           <ul className="space-y-3 text-sm text-background">
             <li className="flex items-start gap-2">

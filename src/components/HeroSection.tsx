@@ -5,6 +5,7 @@ import Navbar from "./Navbar";
 import { Button } from "./ui/button";
 import { useRouter } from "next/navigation";
 import { HeroVideo } from "@/utils/VideoComponent";
+import AppearText from "./AppearText";
 
 const Hero = () => {
   const router = useRouter();
@@ -14,17 +15,17 @@ const Hero = () => {
       <Navbar />
       <div className="flex flex-col items-center justify-center min-h-[70vh] px-4 md:px-8 lg:px-12">
         <div className="my-5 md:my-10 w-full">
-          <p className="text-sm md:text-base text-secondary-title uppercase font-medium tracking-wide text-center md:text-center">
+          <p className="text-sm md:text-base text-secondary-foreground uppercase font-medium tracking-wide text-center md:text-center">
             Every pixel handpicked, every client - rare
           </p>
         </div>
         <div className="text-foreground w-full">
-          <h1 className="text-center uppercase font-bold text-[8vw] md:text-[5vw] max-w-[90vw] md:max-w-[100vw] leading-20 title">
+          <h1 className="text-center uppercase font-bold text-[8vw] md:text-[5vw] max-w-[90vw] md:max-w-[100vw] leading-20 bebas">
             Built to convert. <br /> Designed to speak.
           </h1>
         </div>
         <div className="w-full md:max-w-[50vw] my-6 md:my-10 text-justify">
-          <p className="text-lg md:text-md text-secondary-title uppercase text-justify font-medium leading-relaxed text-wrap">
+          <p className="text-lg md:text-md text-secondary-bebas uppercase text-justify font-medium leading-relaxed text-wrap">
             You build the startup. We make it look unstoppable.
             We co-design high-trust, conversion-obsessed websites for founders, developers, and indie hackers.
           </p>
@@ -52,11 +53,11 @@ const Hero = () => {
             where brilliance <br /> leaves a mark
           </p>
           <div className="md:max-w-[20vw] flex flex-col items-end justify-end h-full ">
-           <div className="">
-             <p className="font-medium text-muted-foreground uppercase leading-relaxed">
-              Place where the underestimation reveals the beast you never saw coming…
-            </p>
-           </div>
+            <div className="">
+              <p className="font-medium text-muted-foreground uppercase leading-relaxed">
+                Place where the underestimation reveals the beast you never saw coming…
+              </p>
+            </div>
           </div>
         </div>
 
