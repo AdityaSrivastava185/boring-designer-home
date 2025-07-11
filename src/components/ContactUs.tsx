@@ -4,7 +4,7 @@ import React from 'react'
 import Cal, { getCalApi } from "@calcom/embed-react";
 import { useEffect } from 'react';
 
-const words = "we embrace minimalism, silence, and precision to craft designs that dominate. We thrive in the shadows, where the overlooked transforms into the unforgettable.This is not just design. This is calculated impact."
+const words = ""
 
 const ContactUs = () => {
     useEffect(() => {
@@ -16,7 +16,7 @@ const ContactUs = () => {
     return (
         <div className='md:py-17 border-b-2 border-border'>
             <div className=''>
-                <h1 className='text-bebas font-bold text-5xl md:text-7xl tracking-tighter text-center uppercase py-7 md:pb-10'>(contact us)</h1>
+                <h1 className='text-bebas font-bold text-4xl md:text-7xl tracking-tighter text-center uppercase py-7 md:pb-10'>(contact us)</h1>
             </div>
             <Cal namespace="30min"
                 calLink="boringdesigner/30min"
@@ -26,7 +26,7 @@ const ContactUs = () => {
 
             />
             <div className='flex items-center justify-center mt-10 md:max-w-[70vw] mx-auto pb-7 md:pb-0'>
-                <p className='text-left md:text-center text-bebas text-xl md:text-2xl uppercase md:font-bold font-semibold'>{words}</p>
+                <p className='text-left md:text-center text-bebas text-lg md:text-2xl uppercase md:font-bold font-medium'>{words}</p>
             </div>
         </div>
     )

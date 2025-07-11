@@ -33,8 +33,8 @@ const Manifesto = () => {
         <div className="border-b-2 border-border md:py-10">
             <div className="md:flex flex-col md:flex-row md:items-start md:justify-start">
                 <div className="py-7 md:py-0 md:max-w-[40%] md:border-r-2 border-border md:px-7">
-                    <h2 className=" text-5xl md:text-7xl font-bold font-bebas md:tracking-tighter uppercase">interactive</h2>
-                    <h2 className="pb-7 md:pb-0 text-5xl md:text-7xl font-bold font-bebas md:tracking-tighter uppercase">designer !</h2>
+                    <h2 className=" text-3xl md:text-7xl font-bold font-bebas md:tracking-tighter uppercase">interactive</h2>
+                    <h2 className="pb-7 md:pb-0 text-4xl md:text-7xl font-bold font-bebas md:tracking-tighter uppercase">designer !</h2>
                     <div className="md:pt-7">
                         <HeroVideo />
                     </div>
@@ -43,12 +43,12 @@ const Manifesto = () => {
                 </div>
                 <div className="w-full">
                     <div className="md:px-7">
-                        <h1 className="text-5xl md:text-left md:text-7xl font-bold font-bebas md:tracking-tighter uppercase">
+                        <h1 className="text-4xl md:text-left md:text-7xl font-bold font-bebas md:tracking-tighter uppercase">
                             (Manifesto)
                         </h1>
-                        <p className="text-sm bebas uppercase py-5"><span className="md:text-xl font-medium text-muted-foreground font-bebas md:tracking-tighter uppercase">Deception in Simplicity ,  Mastery in Every Pixel We turn “boring” into a powerhouse of high-impact design, redefine what&apos;s possible with subscription-based web design. You get high-quality, custom UI/UX designs, rapid frontend development, and open-source website maintenance—all seamlessly delivered under one simple monthly plan.No hidden fees. No delays. Just pixel-perfect execution.We ensure every design is lightweight, responsive, and built for the future. Still think web design is boring?Scroll down and rethink! <br />we embrace minimalism, silence, and precision to craft designs that dominate. We thrive in the shadows, where the overlooked transforms into the unforgettable.This is not just design. This is calculated impact
+                        <p className="text-sm bebas uppercase py-5"><span className="md:text-xl font-medium text-muted-foreground font-bebas md:tracking-tighter uppercase">Deception in Simplicity ,  Mastery in Every Pixel We turn “boring” into a powerhouse of high-impact design, redefine what&apos;s possible with subscription-based web design. You get high-quality, custom UI/UX designs, rapid frontend development, and open-source website maintenance—all seamlessly delivered under one simple monthly plan.No hidden fees. No delays. Just pixel-perfect execution.We ensure every design is lightweight, responsive, and built for the future. Still think web design is boring?Scroll down and rethink! <br /> <br /><span className="hidden md:block">we embrace minimalism, silence, and precision to craft designs that dominate. We thrive in the shadows, where the overlooked transforms into the unforgettable.This is not just design. This is calculated impact</span>
                         </span></p>
-                        <h1 className="text-2xl py-7 md:py-7 md:text-left md:text-6xl font-bold font-bebas md:tracking-tighter uppercase">
+                        <h1 className="text-xl py-7 md:py-7 md:text-left md:text-6xl md:font-bold font-bebas md:tracking-tighter uppercase">
                             We invest in the world changers , because game changers are overrated
                         </h1>
                     </div>

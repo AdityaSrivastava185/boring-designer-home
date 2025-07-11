@@ -23,7 +23,7 @@ const AppearText = () => {
                     duration: 0.5,
                     ease: 'easeInOut',
                 }}
-                className='text-foreground text-3xl md:text-5xl font-bold bebas md:tracking-tighter uppercase text-left md:text-center '
+                className='text-foreground text-xl md:text-5xl font-medium md:font-bold bebas md:tracking-tighter uppercase text-left md:text-center '
             >
                 <div className='py-7 md:py-0 md:my-17'>
                     {word}

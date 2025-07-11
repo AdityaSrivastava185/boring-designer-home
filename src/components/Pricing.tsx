@@ -6,7 +6,7 @@ const Pricing = () => {
         <div className='md:pt-17 border-b-2 border-border'>
             <div className=''>
                 <div className='bebas'>
-                    <h1 className='py-7 md:py-0 text-left text-5xl md:text-7xl font-bold tracking-tighter uppercase'>(be part of pro)</h1>
+                    <h1 className='py-7 md:py-0 text-left text-4xl md:text-7xl font-bold tracking-tighter uppercase'>(be part of pro)</h1>
                 </div>
                 <div className='flex flex-col md:flex-row items-center justify-between w-full h-auto mx-auto md:my-10'>
                     <div className='flex flex-col items-center justify-between w-full h-auto my-auto'>
@@ -14,7 +14,7 @@ const Pricing = () => {
                             <p className='text-muted-foreground font-bold uppercase'>Founder Plans</p>
                         </div>
                         <div className='w-full'>
-                            <h1 className='text-foreground text-2xl md:text-5xl md:max-w-[35vw] text-wrap md:font-medium uppercase font-bold'>A necessary investment for your startup or your personal brand.</h1>
+                            <h1 className='text-foreground text-2xl md:text-5xl md:max-w-[35vw] text-wrap font-medium uppercase'>A necessary investment for your startup or your personal brand.</h1>
                         </div>
                     </div>
                     <div className='md:mt-10 mt-7'>
