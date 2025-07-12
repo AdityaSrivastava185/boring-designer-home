@@ -9,13 +9,13 @@ import MarqueeFooter from "@/utils/MarqueeFooter";
 
 export default function Home() {
   return (
-   <main>
-    <HeroSection/>
-    <Manifesto/>
-    <Pricing/>
-    <Faqs/>
-    <ContactUs/>
-    <Footer/>
-   </main>
+    <main>
+      <HeroSection />
+      <Manifesto />
+      <Pricing />
+      <Faqs />
+      <ContactUs />
+      <Footer />
+    </main>
   );
 }

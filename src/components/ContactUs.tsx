@@ -14,9 +14,10 @@ const ContactUs = () => {
         })();
     }, [])
     return (
-        <div className='md:py-17 border-b-2 border-border'>
+        <div className='md:py-17'>
             <div className=''>
-                <h1 className='text-bebas font-bold text-4xl md:text-7xl tracking-tighter text-center uppercase py-7 md:pb-10'>(contact us)</h1>
+                 <p className="text-muted-background font-mono uppercase text-sm">[ Contact us ]</p>
+                <h1 className='md:mt-7 text-left text-foreground md:text-5xl capitalize font-bold tracking-tight bebas text-3xl font-bebas md:tracking-tighter max-w-[70%] pb-7'>Let us know and drop a meeting or mail to us</h1>
             </div>
             <Cal namespace="30min"
                 calLink="boringdesigner/30min"

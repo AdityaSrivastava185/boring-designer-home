@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
+import { Analytics } from '@vercel/analytics/next';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -14,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  bebas: "Boring Designer - Place where brilliance leaves a mark",
+  title: "Boring Designer - Place where brilliance leaves a mark",
   description: "Boring Designer brings everything you need into one place—from subscription-based design services to a thriving hub where creators, founders, and innovators build, grow, and connect.",
 };
 
@@ -35,6 +36,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           {children}
+          <Analytics/>
         </ThemeProvider>
       </body>
     </html>
