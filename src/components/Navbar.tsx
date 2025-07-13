@@ -4,6 +4,7 @@ import React from 'react';
 import { Button } from './ui/button';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
+import { HamburgerMenu } from '@/utils/HamburgerMenu';
 
 const Navbar = () => {
     const router = useRouter()
@@ -33,6 +34,9 @@ const Navbar = () => {
                             the vault
                         </Button>
                     </div>
+                </div>
+                <div className='md:hidden block'>
+                    <HamburgerMenu/>
                 </div>
             </div>
         </nav>

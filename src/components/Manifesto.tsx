@@ -28,17 +28,17 @@ const Manifesto = () => {
     }, [wordIndex]);
 
     return (
-        <div className="my-14">
+        <div className=" pt-7 md:my-14">
             <div className="md:flex flex-col md:items-center md:justify-center w-full">
-                <div className="py-7 md:py-14 md:px-7 max-w-[70%] md:w-full mx-auto">
+                <div className=" md:py-14 md:px-7 max-w-[70%] md:w-full mx-auto">
                     <p className="text-muted-background jetbrains-mono uppercase text-sm text-center">[ Our Manifesto ]</p>
-                    <h2 className="text-3xl md:text-7xl font-bold font-bebas md:tracking-tighter text-center uppercase">Not everything powerful has to look complicated</h2>
+                    <h2 className="text-3xl md:text-7xl font-bold font-bebas md:tracking-tighter text-center uppercase max-w-[90%] mx-auto">Not everything powerful has to look complicated</h2>
                 </div>
             </div>
             <section className="md:px-24 w-full">
                 <div className="container md:mx-auto">
-                    <div className="sticky md:top-20 top-20">
-                        <div className="mt-10 text-md md:text-4xl md:text-left bebas leading-snug tracking-wide">
+                    <div className="sticky top-20">
+                        <div className="mt-7 text-md md:text-4xl md:text-left bebas leading-snug tracking-wide">
                             <span className="uppercase tracking-tighter">
                                 Your Organization needs better and customized devices to work{" "}
                             </span>
@@ -56,7 +56,7 @@ const Manifesto = () => {
                                     </span>
                                 ))}
                             </span>
-                            <span className="text-white block mt-4 capitalise">
+                            <span className="text-white block capitalise">
                             </span>
                         </div>
                     </div>
