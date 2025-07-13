@@ -6,15 +6,15 @@ const Pricing = () => {
         <div className='md:pt-17'>
             <div className=''>
                 <div className='mt-14'>
-                    <h1 className="text-muted-background jetbrians-mono uppercase text-sm md:text-center">[ be part of pro ]</h1>
+                    <h1 className="text-muted-background jetbrians-mono uppercase text-sm text-center">[ be part of pro ]</h1>
                 </div>
                 <div className='flex flex-col md:flex-row items-center justify-between w-full h-auto mx-auto md:my-10'>
                     <div className='flex flex-col items-center justify-between w-full h-auto my-auto'>
                         <div className='hidden md:block w-full pt-2'>
                             <p className='text-muted-foreground font-bold uppercase jetbrains-mono'>Founder Plans</p>
                         </div>
-                        <div className='w-full'>
-                            <h1 className='md:text-foreground max-w-[80%] text-wrap md:font-medium capitalize text-3xl md:text-7xl font-bold bebas md:tracking-tighter'>A necessary investment for your startup or your personal brand.</h1>
+                        <div className='w-full flex items-center justify-center'>
+                            <h1 className='md:text-foreground max-w-[80%]  text-wrap md:font-medium capitalize text-3xl md:text-7xl font-bold bebas md:tracking-tighter text-center md:text-left'>A necessary investment for your startup or your personal brand.</h1>
                         </div>
                     </div>
                     <div className='md:mt-10 mt-7'>
@@ -27,13 +27,10 @@ const Pricing = () => {
             <div className='mt-14 md:my-20'>
                 <div className="md:flex flex-col md:items-center md:justify-between my-7 md:my-0">
                     <div className='w-full'>
-                        <div className='mt-14'>
-                            <h1 className="text-muted-background jetbrains-mono uppercase text-sm md:text-center">[ be part of pro ]</h1>
-                        </div>
-                        <h2 className="md:mt-7 text-left text-foreground md:text-5xl capitalize font-bold tracking-tight bebas text-3xl bebas md:tracking-tighter md:text-center md:leading-7">
+                        <h2 className="md:mt-7 text-foreground md:text-5xl capitalize font-bold tracking-tight bebas text-3xl bebas md:tracking-tighter text-center md:leading-7">
                             design that doesn't confuse
                         </h2>
-                        <h2 className="md:mt-7 text-left text-foreground md:text-5xl capitalize font-bold tracking-tight bebas text-3xl font-bebas md:tracking-tighter md:text-center">
+                        <h2 className="md:mt-7 text-foreground md:text-5xl capitalize font-bold tracking-tight bebas text-3xl font-bebas md:tracking-tighter text-center">
                             neither does pricing
                         </h2>
                     </div>

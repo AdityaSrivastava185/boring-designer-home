@@ -30,9 +30,9 @@ const Manifesto = () => {
     return (
         <div className="md:py-10 w-full">
             <div className="md:flex flex-col md:items-center md:justify-center w-full">
-                <div className="py-7 md:py-14 md:px-7 max-w-[70%] md:w-full md:mx-auto">
-                    <p className="text-muted-background jetbrains-mono uppercase text-sm md:text-center">[ Our Manifesto ]</p>
-                    <h2 className="text-3xl md:text-7xl font-bold font-bebas md:tracking-tighter md:text-center">Not everything powerful has to look complicated</h2>
+                <div className="py-7 md:py-14 md:px-7 max-w-[70%] md:w-full mx-auto">
+                    <p className="text-muted-background jetbrains-mono uppercase text-sm text-center">[ Our Manifesto ]</p>
+                    <h2 className="text-3xl md:text-7xl font-bold font-bebas md:tracking-tighter text-center">Not everything powerful has to look complicated</h2>
                 </div>
             </div>
             <section className="md:px-24 w-full">
