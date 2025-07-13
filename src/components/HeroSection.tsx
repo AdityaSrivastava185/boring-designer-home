@@ -22,7 +22,7 @@ const Hero = () => {
       <Navbar />
       <div className="max-width">
         <div className="mt-14 mb-7">
-           <Badge/>
+          <Badge />
           <div className="my-7">
             <h1 className="text-center uppercase alise text-3xl md:text-7xl font-bold bebas">
               Just design it with
@@ -33,8 +33,8 @@ const Hero = () => {
             <p className="text-center text-muted-foreground text-xs md:text-xl font-semibold  bebas uppercase">You build the startup. We make it look unstoppable . We co-design high-trust, conversion-obsessed websites for founders, developers, and indie hackers</p>
           </div>
           <div className="mb-14 flex flex-col md:flex-row justify-center items-center gap-7 w-full md:w-auto">
-            <Button className="font-semibold cursor-pointer bebas rounded-xl px-7 py-5 bg-foreground text-background ">Schedule a Call</Button>
-            <Button className="font-semibold cursor-pointer hover:bg-sidebar-accent hover:text-muted-foreground bebas transition-color duration-300 rounded-xl px-7 py-5 bg-muted text-foreground capitalize">Explore valut</Button>
+            <Button className="font-semibold cursor-pointer bebas rounded-xl px-7 py-5 bg-foreground text-background uppercase w-full">Schedule a Call</Button>
+            <Button className="font-semibold cursor-pointer hover:bg-sidebar-accent hover:text-muted-foreground bebas transition-color duration-300 rounded-xl px-7 py-5 bg-muted text-foreground uppercase w-full">Explore valut</Button>
           </div>
           <div>
             <HeroVideo />

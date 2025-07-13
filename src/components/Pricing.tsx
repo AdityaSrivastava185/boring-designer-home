@@ -15,7 +15,7 @@ const Pricing = () => {
                         </div>
                         <div className="w-full">
                             <div className="w-full max-w-[80%] mx-auto md:mx-0">
-                                <h1 className="text-center md:text-left text-3xl md:text-7xl font-bold md:font-medium bebas tracking-tight md:tracking-tighter text-foreground uppercase">
+                                <h1 className="text-center md:text-left text-2xl md:text-7xl font-bold md:font-medium bebas tracking-tight md:tracking-tighter text-foreground uppercase">
                                     A necessary investment for your startup or your personal brand.
                                 </h1>
                             </div>
@@ -32,10 +32,10 @@ const Pricing = () => {
             <div className='mt-14 md:my-14'>
                 <div className="md:flex flex-col md:items-center md:justify-between mt-14 md:my-0">
                     <div className='w-full mb-7'>
-                        <h2 className="md:mt-7 text-foreground md:text-5xl uppercase font-bold tracking-tight bebas text-3xl bebas md:tracking-tighter text-center md:leading-3">
+                        <h2 className="md:mt-7 text-foreground md:text-5xl uppercase font-bold tracking-tight bebas text-2xl bebas md:tracking-tighter text-center md:leading-3">
                             design that doesn't
                         </h2>
-                        <h2 className="md:mt-7 text-foreground md:text-5xl uppercase font-bold tracking-tight bebas text-3xl font-bebas md:tracking-tighter max-w-[70%] md:max-w-[30%] mx-auto text-center">
+                        <h2 className="md:mt-7 text-foreground md:text-5xl uppercase font-bold tracking-tight bebas text-2xl font-bebas md:tracking-tighter max-w-[70%] md:max-w-[30%] mx-auto text-center">
                             confuse neither does pricing
                         </h2>
                     </div>

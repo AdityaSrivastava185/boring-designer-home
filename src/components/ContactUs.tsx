@@ -17,7 +17,7 @@ const ContactUs = () => {
         <div className='md:pb-14'>
             <div className='w-full flex flex-col items-center justify-center'>
                 <p className="text-muted-background jetbrains-mono uppercase text-sm text-center">[ Contact us ]</p>
-                <h1 className='text-foreground md:text-5xl uppercase font-bold tracking-tight bebas text-3xl bebas md:tracking-tighter max-w-[70%] md:max-w-[30%] pb-14 text-center'>Let us know and drop a meeting or mail to us</h1>
+                <h1 className='text-foreground md:text-5xl uppercase font-bold tracking-tight bebas text-2xl bebas md:tracking-tighter max-w-[50%] md:max-w-[30%] pb-14 text-center'>Let us know and drop a meeting or mail to us</h1>
             </div>
             <Cal namespace="30min"
                 calLink="boringdesigner/30min"
