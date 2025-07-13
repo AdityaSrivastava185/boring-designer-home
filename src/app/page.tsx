@@ -1,5 +1,6 @@
 "use client"
 
+import AboutUs from "@/components/AboutUs";
 import ContactUs from "@/components/ContactUs";
 import Faqs from "@/components/Faqs";
 import Footer from "@/components/Footer";
@@ -22,6 +23,7 @@ export default function Home() {
     <main>
       <HeroSection />
       <Manifesto />
+      <AboutUs />
       <Pricing />
       <Faqs />
       <ContactUs />

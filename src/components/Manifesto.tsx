@@ -38,8 +38,8 @@ const Manifesto = () => {
             <section className="md:px-24 w-full">
                 <div className="container md:mx-auto">
                     <div className="sticky top-20">
-                        <div className="mt-7 text-md md:text-4xl md:text-left bebas leading-snug tracking-wide">
-                            <span className="uppercase tracking-tighter">
+                        <div className="mt-7 text-md md:text-3xl md:text-left bebas leading-snug tracking-wide max-w-[70%] mx-auto text-justify">
+                            <span className="uppercase tracking-tighter text-muted-foreground">
                                 Your Organization needs better and customized devices to work{" "}
                             </span>
                             <span className="text-transparent  bebas md:tracking-tighter md:leading-tight uppercase">
@@ -48,7 +48,7 @@ const Manifesto = () => {
                                         key={index}
                                         className={
                                             index <= Math.floor(currentWord)
-                                                ? "transition duration-500 text-white"
+                                                ? "transition duration-500 text-white font-semibold"
                                                 : ""
                                         }
                                     >
