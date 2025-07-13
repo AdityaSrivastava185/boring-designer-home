@@ -46,10 +46,13 @@ const containerQuestionsOne = [{
 const Faqs = () => {
     return (
         <div className='md:pt-17 py-7 md:py-0'>
-            <div className=' max-w-[50%] md:max-w-[50%]'>
-                 <p className="text-muted-background font-mono uppercase text-sm">[ FAQs ]</p>
-                <h1 className='md:mt-7 text-left text-foreground md:text-5xl capitalize font-bold tracking-tight bebas text-3xl font-bebas md:tracking-tighter'>everything you need to know</h1>
+            <p className="text-muted-background jetbrains-mono uppercase text-sm md:text-center">[ FAQs ]</p>
+            <div className="w-full flex md:justify-center">
+                <h1 className="md:text-center text-foreground text-3xl md:text-5xl capitalize font-bold tracking-tight font-bebas md:tracking-tighter  md:max-w-[60%]">
+                    everything <br />you need to know
+                </h1>
             </div>
+
             <div className='flex flex-col  md:items-center md:justify-center inset-0 w-full h-auto mx-auto md:my-10 '>
                 <div className='divide-y-2 divide-dashed divide-secondary-border w-full '>
                     {

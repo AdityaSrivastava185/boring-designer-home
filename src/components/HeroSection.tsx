@@ -30,27 +30,27 @@ const Hero = () => {
             </h1>
             <h1 className="text-center text-5xl md:text-7xl font-bold bebas">BoringDesigner</h1>
           </div>
-          <div className=" mb-7 md:mb-14 md:max-w-[40%] mx-auto">
-            <p className="text-center text-muted-foreground text-sm md:text-xl font-semibold capitalize">You build the startup. We make it look unstoppable . We co-design high-trust, conversion-obsessed websites for founders, developers, and indie hackers</p>
+          <div className=" mb-7 md:mb-14 md:max-w-[50%] mx-auto">
+            <p className="text-center text-muted-foreground text-sm md:text-xl font-semibold capitalize bebas">You build the startup. We make it look unstoppable . We co-design high-trust, conversion-obsessed websites for founders, developers, and indie hackers</p>
           </div>
           <div className="mb-14 flex flex-col md:flex-row justify-center items-center gap-7 w-full md:w-auto">
-            <Button className="font-semibold cursor-pointer bebas rounded-xl px-7 py-5 bg-foreground text-background w-full">Schedule a Call</Button>
-            <Button className="font-semibold cursor-pointer hover:bg-sidebar-accent hover:text-muted-foreground bebas transition-color duration-300 rounded-xl px-7 py-5 bg-muted text-foreground capitalize w-full">Explore valut</Button>
+            <Button className="font-semibold cursor-pointer bebas rounded-xl px-7 py-5 bg-foreground text-background ">Schedule a Call</Button>
+            <Button className="font-semibold cursor-pointer hover:bg-sidebar-accent hover:text-muted-foreground bebas transition-color duration-300 rounded-xl px-7 py-5 bg-muted text-foreground capitalize">Explore valut</Button>
           </div>
           <div>
             <HeroVideo />
           </div>
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="my-7">
-              <h1 className=" text-4xl md:text-7xl font-bold bebas md:tracking-tighter uppercase">Where brilliance leaves a mark</h1>
+              <h1 className=" text-4xl md:text-7xl font-bold bebas md:tracking-tighter uppercase ">Where brilliance leaves a mark</h1>
             </div>
             <div className=" md:my-14 md:flex md:flex-col md:items-end md:justify-end">
-              <div className="max-w-[50%]">
-                <p className="text-sm font-semibold bebas">Place where the underestimation reveals the beast you never saw coming ….</p>
+              <div className="max-w-[60%]">
+                <p className="text-sm font-semibold jetbrains-mono">Place where the underestimation reveals the beast you never saw coming ….</p>
               </div>
             </div>
           </div>
-          <div className="mt-14 md:mt-0">
+          <div className="mt-14">
             <MarqueeFooter />
           </div>
         </div>

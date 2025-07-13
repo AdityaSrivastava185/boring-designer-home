@@ -36,10 +36,9 @@ const Footer = () => {
           <div className="w-full  mx-auto py-4 md:py-8">
             <div className="sm:flex sm:items-center sm:justify-between">
               <a href="" className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
-                {/* <img src="" className="h-8" alt="Flowbite Logo" /> */}
-                <span className="self-center text-[290%] font-bold tracking-tighter whitespace-nowrap dark:text-white">BORINGDESIGNER</span>
+                <span className="self-center text-[290%] md:text-[400%] font-bold tracking-tighter whitespace-nowrap dark:text-white bebas">BORINGDESIGNER.</span>
               </a>
-              <ul className="flex flex-col md:flex-row md:items-center mb-6 text-sm font-medium sm:mb-0  ">
+              <ul className="flex flex-col md:flex-row md:items-center mb-6 text-sm font-medium sm:mb-0  md:gap-10 jetbrains-mono">
                 <li className='mb-3'>
                   <a href="#" className="hover:underline ">About</a>
                 </li>

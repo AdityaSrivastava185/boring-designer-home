@@ -8,7 +8,7 @@ import { useRouter } from 'next/navigation';
 const Navbar = () => {
     const router = useRouter()
     return (
-        <nav className="w-full md:mb-2 bg-background px-4 py-2 rounded-full shadow-2xl">
+        <nav className="w-full md:mb-2 px-4 py-2 rounded-full shadow-2xl">
             <div className='flex items-center justify-between max-w-7xl mx-auto'>
                 <div className='flex items-center space-x-4'>
                     <div className='uppercase md:pr-10 font-extrabold'>boringdesigner.</div>

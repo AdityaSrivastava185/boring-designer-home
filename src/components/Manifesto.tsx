@@ -2,15 +2,13 @@
 
 import React, { useEffect, useRef, useState } from "react";
 import { useScroll, useTransform } from "framer-motion";
-import { HeroVideo } from "@/utils/VideoComponent";
-import AppearText from "./AppearText";
 
 const text = `Deception in Simplicity. Mastery in Every Pixel. We turn “boring” into a
 powerhouse of high-impact design, redefine what's possible with
 subscription-based web design. You get high-quality, custom UI/UX
 designs, rapid frontend development, and open-source website
 maintenance—all seamlessly delivered under one simple monthly
-plan.`;
+plan.That's why we created BoringDesigner.`;
 
 const words = text.split(" ");
 
@@ -30,54 +28,47 @@ const Manifesto = () => {
     }, [wordIndex]);
 
     return (
-        <div className="md:py-10">
-            <div className="md:flex flex-col md:flex-row md:items-start md:justify-start">
-                <div className="py-7 md:py-0 md:max-w-[40%] md:border-r-2 border-border md:px-7 max-w-[70%]">
-                    <p className="text-muted-background font-mono uppercase text-sm">[ Our Manifesto ]</p>
-                    <h2 className="text-3xl md:text-7xl font-bold font-bebas md:tracking-tighter">Not everything powerful has to look complicated</h2>
-                </div>
-                <div>
-                    <p className="text-muted-foreground bebas text-sm">Deception in Simplicity ,  Mastery in Every Pixel We turn “boring” into a powerhouse of high-impact design, redefine what&apos;s possible with subscription-based web design. You get high-quality, custom UI/UX designs, rapid frontend development, and open-source website maintenance—all seamlessly delivered under one simple monthly plan.No hidden fees. No delays. Just pixel-perfect execution.We ensure every design is lightweight, responsive, and built for the future. <br /> <br /> <span className="text-foreground font-bold bebas tracking-wide">Still think web design is boring?<br />Scroll down and rethink! </span></p>
+        <div className="md:py-10 w-full">
+            <div className="md:flex flex-col md:items-center md:justify-center w-full">
+                <div className="py-7 md:py-14 md:px-7 max-w-[70%] md:w-full md:mx-auto">
+                    <p className="text-muted-background jetbrains-mono uppercase text-sm md:text-center">[ Our Manifesto ]</p>
+                    <h2 className="text-3xl md:text-7xl font-bold font-bebas md:tracking-tighter md:text-center">Not everything powerful has to look complicated</h2>
                 </div>
             </div>
-            {/* <AppearText /> */}
+            <section className="md:px-24 w-full">
+                <div className="container md:mx-auto">
+                    <div className="sticky md:top-20 top-20">
+                        <div className="mt-10 text-md md:text-4xl md:text-left bebas leading-snug tracking-wide">
+                            <span className="capitalise">
+                                Your Organization needs better and customized devices to work{" "}
+                            </span>
+                            <span className="text-transparent  bebas md:tracking-tighter md:leading-tight">
+                                {words.map((word, index) => (
+                                    <span
+                                        key={index}
+                                        className={
+                                            index <= Math.floor(currentWord)
+                                                ? "transition duration-500 text-white"
+                                                : ""
+                                        }
+                                    >
+                                        {`${word} `}
+                                    </span>
+                                ))}
+                            </span>
+                            <span className="text-white block mt-4 capitalise">
+                            </span>
+                        </div>
+                    </div>
+                    <div
+                        ref={scrollTarget}
+                        className="h-[300vh]"
+                    ></div>
+                </div>
+            </section>
+
         </div>
     );
 };
 
 export default Manifesto;
-
-
-{/* <section className=" md:px-24 px-10 w-full">
-    <div className="container mx-auto">
-        <div className="sticky md:top-20 top-20">
-            <h1 className="text-left text-7xl font-bold font-bebas tracking-tighter uppercase">
-                Manifesto
-            </h1>
-
-            <div className="mt-10 text-md md:text-4xl md:text-left bebas leading-snug tracking-wide">
-                <span className="uppercase">
-                    Your Organization needs better and customized devices to work{" "}
-                </span>
-                <span className="text-white/15 uppercase font-bold">
-                    {words.map((word, index) => (
-                        <span
-                            key={index}
-                            className={
-                                index < currentWord
-                                    ? "transition duration-300 text-white"
-                                    : ""
-                            }
-                        >
-                            {`${word} `}
-                        </span>
-                    ))}
-                </span>
-                <span className="text-white block mt-4 uppercase">
-                    That&apos;s why we created BoringDesigner.
-                </span>
-            </div>
-        </div>
-        <div className="h-[150vh]" ref={scrollTarget}></div>
-    </div>
-</section> */}
