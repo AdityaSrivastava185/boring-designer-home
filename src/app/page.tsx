@@ -1,13 +1,23 @@
-import AppearText from "@/components/AppearText";
+"use client"
+
 import ContactUs from "@/components/ContactUs";
 import Faqs from "@/components/Faqs";
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import Manifesto from "@/components/Manifesto";
 import Pricing from "@/components/Pricing";
-import MarqueeFooter from "@/utils/MarqueeFooter";
+import Lenis from "lenis"
+import { useEffect } from "react";
 
 export default function Home() {
+  useEffect(() => {
+    const lenis = new Lenis()
+    function raf(time:any){
+      lenis.raf(time)
+      requestAnimationFrame(raf)
+    }
+    requestAnimationFrame(raf)
+  },[])
   return (
     <main>
       <HeroSection />
