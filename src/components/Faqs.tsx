@@ -53,7 +53,7 @@ const Faqs = () => {
                 <h1 className="text-center text-foreground text-2xl md:text-5xl uppercase font-bold tracking-tight font-bebas md:tracking-tighter md:max-w-[50%] text-wrap">
                     You have the Question
                 </h1>
-                <h1 className="text-center text-foreground text-2xl md:text-5xl uppercase font-bold tracking-tight font-bebas md:tracking-tighter max-w-[50%] text-wrap">
+                <h1 className="text-center text-foreground text-2xl md:text-5xl uppercase font-bold tracking-tight font-bebas md:tracking-tighter md:max-w-[50%] text-wrap">
                     We got the damn asnwers
                 </h1>
             </div>

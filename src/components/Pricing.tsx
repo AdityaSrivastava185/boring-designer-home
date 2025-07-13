@@ -8,8 +8,8 @@ const Pricing = () => {
                 <div className=''>
                     <h1 className="text-muted-background jetbrians-mono uppercase text-sm text-center">[ be part of pro ]</h1>
                 </div>
-                <div className='flex flex-col md:flex-row items-center justify-between w-full h-auto mx-auto md:my-10'>
-                    <div className='flex flex-col items-center justify-between w-full h-auto  my-7 md:my-14'>
+                <div className='flex flex-col md:flex-row items-center justify-between w-full h-auto mx-auto md:mb-10'>
+                    <div className='flex flex-col items-center justify-between w-full h-auto mb-7 md:my-14'>
                         <div className='hidden md:block w-full pt-2'>
                             <p className='text-muted-foreground font-bold uppercase jetbrains-mono'>Founder Plans</p>
                         </div>
@@ -30,7 +30,7 @@ const Pricing = () => {
                 </div>
             </div>
             <div className='mt-14 md:my-14'>
-                <div className="md:flex flex-col md:items-center md:justify-between mt-14 md:my-0">
+                <div className="md:flex flex-col md:items-center md:justify-between my-14 md:my-0">
                     <div className='w-full mb-7'>
                         <h2 className="md:mt-7 text-foreground md:text-5xl uppercase font-bold tracking-tight bebas text-2xl bebas md:tracking-tighter text-center md:leading-3">
                             design that doesn't
