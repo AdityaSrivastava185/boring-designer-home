@@ -25,13 +25,13 @@ const Hero = () => {
       <div className="max-width">
         <div className=" mt-24 md:mt-14 mb-7">
           <div className="my-7">
-            <h1 className="text-center capitalize alise text-5xl sm:text-4xl md:text-7xl font-bold bebas">
+            <h1 className="text-center uppercase alise text-4xl md:text-7xl font-bold bebas">
               Just design it with
             </h1>
-            <h1 className="text-center text-5xl sm:text-4xl md:text-7xl font-bold bebas">BoringDesigner</h1>
+            <h1 className="text-center text-4xl md:text-7xl font-bold bebas uppercase">BoringDesigner</h1>
           </div>
           <div className=" mb-7 md:mb-14 md:max-w-[50%] mx-auto">
-            <p className="text-center text-muted-foreground text-sm md:text-xl font-semibold capitalize bebas">You build the startup. We make it look unstoppable . We co-design high-trust, conversion-obsessed websites for founders, developers, and indie hackers</p>
+            <p className="text-center text-muted-foreground text-sm md:text-xl font-semibold  bebas uppercase">You build the startup. We make it look unstoppable . We co-design high-trust, conversion-obsessed websites for founders, developers, and indie hackers</p>
           </div>
           <div className="mb-14 flex flex-col md:flex-row justify-center items-center gap-7 w-full md:w-auto">
             <Button className="font-semibold cursor-pointer bebas rounded-xl px-7 py-5 bg-foreground text-background ">Schedule a Call</Button>
@@ -46,7 +46,7 @@ const Hero = () => {
             </div>
             <div className=" md:my-14 md:flex md:flex-col md:items-end md:justify-end">
               <div className="max-w-[60%]">
-                <p className="text-sm font-semibold jetbrains-mono">Place where the underestimation reveals the beast you never saw coming ….</p>
+                <p className="text-sm font-semibold jetbrains-mono uppercase">Place where the underestimation reveals the beast you never saw coming ….</p>
               </div>
             </div>
           </div>
