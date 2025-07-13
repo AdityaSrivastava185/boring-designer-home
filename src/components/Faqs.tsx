@@ -1,4 +1,6 @@
+import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from '@radix-ui/react-accordion'
 import React from 'react'
+import { FAQItem } from "@/utils/FaqItem"
 
 const containerQuestionsOne = [{
     id: "01",
@@ -45,30 +47,127 @@ const containerQuestionsOne = [{
 
 const Faqs = () => {
     return (
-        <div className='py-17'>
+        <div className=''>
             <p className="text-muted-background jetbrains-mono uppercase text-sm text-center">[ FAQs ]</p>
-            <div className="w-full flex justify-center">
-                <h1 className="text-center text-foreground text-3xl md:text-5xl capitalize font-bold tracking-tight font-bebas md:tracking-tighter md:max-w-[30%] text-wrap mb-14 ">
-                    everything you need to know
+            <div className="w-full flex flex-col items-center justify-center">
+                <h1 className="text-center text-foreground text-3xl md:text-5xl capitalize font-bold tracking-tight font-bebas md:tracking-tighter md:max-w-[50%] text-wrap">
+                    You have the Question
+                </h1>
+                <h1 className="text-center text-foreground text-3xl md:text-5xl capitalize font-bold tracking-tight font-bebas md:tracking-tighter md:max-w-[50%] text-wrap">
+                    We got the damn asnwers
                 </h1>
             </div>
+            <section className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+                <div className="grid pt-8 md:gap-16 md:grid-cols-2 text-left">
+                    {/* Left Column */}
+                    <div>
+                        <FAQItem
+                            question="What do you mean by 'Figma assets'?"
+                            answer="You will have access to download the full Figma project including all of the pages, components, responsive pages, and also the icons, illustrations, and images included in the screens."
+                        />
 
-            <div className='flex flex-col  md:items-center md:justify-center inset-0 w-full h-auto mx-auto md:my-10 '>
-                <div className='divide-y-2 divide-dashed divide-secondary-border w-full '>
-                    {
-                        containerQuestionsOne.map((item, index) => (
-                            <div key={index} className='md:my-10 p-5 rounded-lg flex flex-col md:flex-row md:items-center justify-start md:gap-24'>
-                                <div className='flex items-center justify-center h-6 w-6 bg-foreground text-background rounded-full text-xs font-bold uppercase p-6 my-3 md:my-0'>
-                                    {item.id}
-                                </div>
-                                <h2 className='text-foreground text-sm capitalize bebas text-wrap md:max-w-[10vw] '>{item.question}</h2>
-                                <p className='text-muted-foreground text-sm py-2 capitalize bebas text-wrap md:max-w-[50vw]'>{item.answer}</p>
-                            </div>
-                        ))
-                    }
+                        <FAQItem
+                            question="What does 'lifetime access' exactly mean?"
+                            answer="Once you have purchased either the design, code, or both packages, you will have access to all of the future updates based on the roadmap, free of charge."
+                        />
+
+                        <FAQItem
+                            question="How does support work?"
+                            answer="Support is provided directly by the authors who worked on this project. Feel free to contact us and we’ll help you out as soon as we can."
+                            extra={
+                                <p className="text-muted-foreground">
+                                    Feel free to{" "}
+                                    <a
+                                        href="#"
+                                        className="font-medium underline text-primary-600 dark:text-primary-500 hover:no-underline"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        contact us
+                                    </a>{" "}
+                                    and we'll help you out as soon as we can.
+                                </p>
+                            }
+                        />
+
+                        <FAQItem
+                            question="I want to build more than one project. Is that allowed?"
+                            answer="You can use Windster for unlimited projects, whether personal, SaaS, or client work. Just don&apos;t build a competing UI kit, theme, or template."
+                            extra={
+                                <p className="text-muted-foreground">
+                                    Find out more by{" "}
+                                    <a
+                                        href="#"
+                                        className="font-medium underline text-primary-600 dark:text-primary-500 hover:no-underline"
+                                    >
+                                        reading the license
+                                    </a>
+                                    .
+                                </p>
+                            }
+                        />
+                    </div>
+
+                    {/* Right Column */}
+                    <div>
+                        <FAQItem
+                            question="What does 'free updates' include?"
+                            answer={
+                                <>
+                                    Free updates follow our{" "}
+                                    <a
+                                        href="#"
+                                        className="font-medium underline text-primary-600 dark:text-primary-500 hover:no-underline"
+                                    >
+                                        roadmap
+                                    </a>
+                                    . Additional updates outside the roadmap may also be provided.
+                                </>
+                            }
+                        />
+
+                        <FAQItem
+                            question="What does the free version include?"
+                            answer={
+                                <>
+                                    The{" "}
+                                    <a
+                                        href="#"
+                                        className="font-medium underline text-primary-600 dark:text-primary-500 hover:no-underline"
+                                    >
+                                        free version
+                                    </a>{" "}
+                                    includes minimal style guidelines, component variants, and a mobile-compatible dashboard page. It’s open-source under the MIT license.
+                                </>
+                            }
+                        />
+
+                        <FAQItem
+                            question="What is the difference between Windster and Tailwind UI?"
+                            answer="Windster includes additional design styles, UI elements, and pages compared to Tailwind UI. It also covers application, marketing, and e-commerce interfaces."
+                        />
+
+                        <FAQItem
+                            question="Can I use Windster in open-source projects?"
+                            answer="Yes, Windster can be used in open-source projects as long as it's not used to build a competing UI kit or template."
+                            extra={
+                                <p className="text-muted-foreground">
+                                    Find out more by{" "}
+                                    <a
+                                        href="#"
+                                        className="font-medium underline text-primary-600 dark:text-primary-500 hover:no-underline"
+                                    >
+                                        reading the license
+                                    </a>
+                                    .
+                                </p>
+                            }
+                        />
+                    </div>
                 </div>
+            </section>
 
-            </div>
+
         </div>
     )
 }

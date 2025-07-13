@@ -29,10 +29,10 @@ const Pricing = () => {
                     </div>
                 </div>
             </div>
-            <div className='mt-14 md:my-20'>
+            <div className='mt-14 md:my-14'>
                 <div className="md:flex flex-col md:items-center md:justify-between mt-14 md:my-0">
-                    <div className='w-full mb-14'>
-                        <h2 className="md:mt-7 text-foreground md:text-5xl capitalize font-bold tracking-tight bebas text-3xl bebas md:tracking-tighter text-center md:leading-7">
+                    <div className='w-full mb-7'>
+                        <h2 className="md:mt-7 text-foreground md:text-5xl capitalize font-bold tracking-tight bebas text-3xl bebas md:tracking-tighter text-center md:leading-3">
                             design that doesn't
                         </h2>
                         <h2 className="md:mt-7 text-foreground md:text-5xl capitalize font-bold tracking-tight bebas text-3xl font-bebas md:tracking-tighter text-center">
@@ -40,7 +40,7 @@ const Pricing = () => {
                         </h2>
                     </div>
                     <div>
-                        <p className='hidden md:block text-muted-foreground mt-7 uppercase md:max-w-[20vw] jetbrains-mono text-center'>pick your monthly charges and get the credibility of bein amazing</p>
+                        <p className='hidden md:block text-muted-foreground uppercase md:max-w-[20vw] jetbrains-mono text-center'>pick your monthly charges and get the credibility of bein amazing</p>
                     </div>
                 </div>
                 <div>
