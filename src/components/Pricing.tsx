@@ -23,9 +23,9 @@ const Pricing = () => {
 
                     </div>
                     <div className='md:mt-10 mt-7'>
-                        <h4 className='text-muted-foreground jetbrains-mono md:tracking-tighter md:max-w-[50vw] text-wrap uppercase text-sm text-justify max-w-[70%] mx-auto'>Boring Designer is your unfair design advantage — a trusted one-man studio where ambitious founders, indie hackers, and early-stage startups turn their bold digital vision into high-converting, minimal realities.</h4>
+                        <h4 className='text-muted-foreground jetbrains-mono md:tracking-tighter md:max-w-[50vw] text-wrap uppercase text-sm text-justify max-w-[90%] mx-auto'>Boring Designer is your unfair design advantage — a trusted one-man studio where ambitious founders, indie hackers, and early-stage startups turn their bold digital vision into high-converting, minimal realities.</h4>
 
-                        <h4 className='text-muted-foreground jetbrains-mono md:tracking-tighter md:max-w-[50vw] text-wrap uppercase text-sm mt-7 max-w-[70%] mx-auto'>This isn&apos;t just a design portfolio. It&apos;s a hall of builders.If your startup makes it here, it means you're signal, not noise.People won&apos;t ask who built your site — <span className='text-foreground'>they&apos;ll ask who the hell are you?</span></h4>
+                        <h4 className='text-muted-foreground jetbrains-mono md:tracking-tighter md:max-w-[50vw] text-wrap uppercase text-sm mt-7 max-w-[90%] mx-auto'>This isn&apos;t just a design portfolio. It&apos;s a hall of builders.If your startup makes it here, it means you're signal, not noise.People won&apos;t ask who built your site — <span className='text-foreground'>they&apos;ll ask who the hell are you?</span></h4>
                     </div>
                 </div>
             </div>

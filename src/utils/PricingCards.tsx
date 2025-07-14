@@ -38,7 +38,7 @@ export default function Pricing() {
           </ul>
           <Button className='w-full mt-3 cursor-pointer'>Book a call Now</Button>
         </div>
-        
+
         <div className="border bg-foreground text-background rounded-xl p-6">
           <div className="flex justify-between items-center mb-6">
             <h2 className="text-4xl font-bold">$800-$1000/-<span className="text-base font-normal"> /MONTH</span></h2>
@@ -107,8 +107,8 @@ export default function Pricing() {
           <Button className='w-full mt-3 bg-foreground cursor-pointer'>Book a call Now</Button>
         </div>
 
-        
-        
+
+
 
       </div>
     </div>

@@ -38,7 +38,7 @@ const Manifesto = () => {
             <section className="md:px-24 w-full">
                 <div className="container md:mx-auto">
                     <div className="sticky top-20">
-                        <div className="mt-7 text-md md:text-3xl md:text-left bebas leading-snug tracking-wide max-w-[70%] mx-auto text-justify">
+                        <div className="mt-7 text-md md:text-3xl md:text-left bebas leading-snug tracking-wide max-w-[90%] md:max-w-[70%] mx-auto text-justify">
                             <span className="uppercase tracking-tighter text-muted-foreground">
                                 Your Organization needs better and customized devices to work{" "}
                             </span>
