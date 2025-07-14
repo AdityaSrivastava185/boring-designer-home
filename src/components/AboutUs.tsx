@@ -20,7 +20,7 @@ const AboutUs = () => {
                         {words.map((word, index) => (
                             <span
                                 key={index}
-                                className="border border-border px-3 py-2 rounded-full min-w-[80px] md:min-w-[110px] min-h-[40px] flex items-center justify-center text-center"
+                                className="border border-border px-3 py-2 rounded-full min-w-[80px] md:min-w-[110px] min-h-[40px] flex items-center justify-center "
                             >
                                 {word}
                             </span>
