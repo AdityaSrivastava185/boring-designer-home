@@ -48,7 +48,7 @@ const containerQuestionsOne = [{
 const Faqs = () => {
     return (
         <div className='md:px-24'>
-            <p className="text-muted-background jetbrains-mono uppercase text-sm text-center">[ FAQs ]</p>
+            <p className="text-muted-background jetbrains-mono uppercase text-sm text-center pb-7">[ FAQs ]</p>
             <div className="w-full flex flex-col items-center justify-center">
                 <h1 className="text-center text-foreground text-2xl md:text-5xl uppercase font-bold tracking-tight font-bebas md:tracking-tighter md:max-w-[50%] text-wrap">
                     You have the Question

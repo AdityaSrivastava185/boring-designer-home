@@ -24,20 +24,20 @@ const Hero = () => {
         <div className="mt-14 mb-7">
           {/* <Badge /> */}
           <div className="mt-7 mb-4 md:my-7">
-            <h1 className=" uppercase alise text-5xl md:text-8xl font-bold bebas tracking-tighter">
+            <h1 className=" uppercase alise text-4xl md:text-8xl font-bold bebas tracking-tighter">
               We create
             </h1>
-            <h1 className="tracking-tighter alise text-5xl md:text-8xl font-bold  uppercase  bebas">
+            <h1 className="tracking-tighter alise text-4xl md:text-8xl font-bold  uppercase  bebas">
               <div className="h-10 w-14 md:w-32 md:h-20 bg-red-500 rounded-lg inline-block"></div> scroll-stopping
             </h1>
-            <h1 className=" text-5xl md:text-8xl font-bold bebas uppercase tracking-tighter">landing pages</h1>
+            <h1 className=" text-4xl md:text-8xl font-bold bebas uppercase tracking-tighter">landing pages</h1>
           </div>
           <div className=" mb-7 md:mb-14 md:max-w-[50%] max-w-[90%]">
             <p className=" text-muted-foreground text-xs md:text-lg bebas uppercase md:leading-5">You build the vision — we shape the face of it.
               Boring Designer partners with ambitious founders, indie hackers & devs to design high-trust, high-conversion websites that look as powerful as your product feels.</p>
           </div>
 
-          <div className="mb-14 flex flex-row justify-start gap-7 item-start md:items-start md:justify-start w-full md:w-auto">
+          <div className="mb-14 flex flex-col md:flex-row justify-start gap-7 item-start md:items-start md:justify-start w-full md:w-auto">
             <Button className="font-semibold cursor-pointer bebas rounded-xl px-7 py-5 bg-foreground text-background uppercase ">Initiate project</Button>
             <Button className="font-semibold cursor-pointer hover:bg-sidebar-accent hover:text-muted-foreground bebas transition-color duration-300 rounded-xl px-7 py-5 bg-muted text-foreground uppercase">Explore the valut</Button>
           </div>

@@ -44,14 +44,14 @@ const Manifesto = () => {
         <div className=" pt-7 md:my-14">
             <div className="md:flex flex-col md:items-center md:justify-center w-full">
                 <div className=" md:py-14 md:px-7 max-w-[70%] md:w-full mx-auto">
-                    <p className="text-muted-background jetbrains-mono uppercase text-sm text-center">[ Our Manifesto ]</p>
+                    <p className="text-muted-background jetbrains-mono uppercase text-sm text-center py-7">[ Our Manifesto ]</p>
                     <h2 className="text-2xl md:text-7xl font-bold font-bebas md:tracking-tighter text-center uppercase w-full md:max-w-[90%] mx-auto">Not everything powerful has to look complicated</h2>
                 </div>
             </div>
             <section className="md:px-24 w-full">
                 <div className="container md:mx-auto">
                     <div className="sticky top-20">
-                        <div className="mt-7 text-md md:text-3xl md:text-left bebas leading-snug tracking-wide  mx-auto text-justify">
+                        <div className="mt-7 text-md md:text-3xl md:text-left bebas leading-snug tracking-wide  mx-auto">
                             <span className="uppercase tracking-tighter text-muted-foreground">
                                 Your Organization needs better and customized devices to work{" "}
                             </span>
@@ -76,10 +76,10 @@ const Manifesto = () => {
                                 <div>
                                     <Link href={""} className="text-sm uppercase">from design to deploy</Link>
                                 </div>
-                                <div className="mt-4 md:mt-0 flex items-center md:justify-start">
+                                <div className="mt-2 md:mt-0 flex items-center md:justify-start">
                                     <Link
                                         href={""}
-                                        className="px-7 py-3 text-sm border border-border rounded-full uppercase flex items-center"
+                                        className="md:px-7 md:py-3 text-sm md:border md:border-border rounded-full uppercase flex items-center"
                                     >
                                         Start the project
                                         <MoveRight  className="h-3"/>

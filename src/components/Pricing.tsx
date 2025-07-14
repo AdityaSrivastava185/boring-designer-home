@@ -6,7 +6,7 @@ const Pricing = () => {
         <div className='py-17'>
             <div className='md:px-24'>
                 <div className=''>
-                    <h1 className="text-muted-background jetbrians-mono uppercase text-sm text-center">[ be part of pro ]</h1>
+                    <h1 className="text-muted-background jetbrians-mono uppercase text-sm text-center pb-7">[ be part of pro ]</h1>
                 </div>
                 <div className='flex flex-col md:flex-row items-center justify-between w-full h-auto mx-auto md:mb-10'>
                     <div className='flex flex-col items-center justify-between w-full h-auto mb-7 md:my-14'>
@@ -23,7 +23,7 @@ const Pricing = () => {
 
                     </div>
                     <div className='md:mt-10 mt-7'>
-                        <h4 className='text-muted-foreground jetbrains-mono md:tracking-tighter md:max-w-[50vw] text-wrap uppercase text-sm text-justify mx-auto'>Go Pro with Boring Designer — your unfair design advantage.
+                        <h4 className='text-muted-foreground jetbrains-mono md:tracking-tighter md:max-w-[50vw] text-wrap uppercase text-sm mx-auto'>Go Pro with Boring Designer — your unfair design advantage.
                             For founders, indie hackers, and early-stage startups who are serious about standing out — we craft sharp, minimal, conversion-obsessed design that turns bold digital ideas into unstoppable brands.</h4>
 
                         <h4 className='text-muted-foreground jetbrains-mono md:tracking-tighter md:max-w-[50vw] text-wrap uppercase text-sm mt-7 mx-auto'>This isn&apos;t a portfolio. It&apos;s a gallery of the bold.
@@ -33,7 +33,7 @@ const Pricing = () => {
                     </div>
                 </div>
             </div>
-            <div className='mt-14 md:my-14'>
+            <div className='md:mt-14'>
                 <div className="md:flex flex-col md:items-center md:justify-between my-14 md:my-0">
                     <div className='w-full mb-7'>
                         <h2 className="md:mt-7 text-foreground md:text-5xl uppercase font-bold tracking-tight bebas text-2xl bebas md:tracking-tighter text-center md:leading-3">
