@@ -2,6 +2,8 @@
 
 import React, { useEffect, useRef, useState } from "react";
 import { useScroll, useTransform } from "framer-motion";
+import Link from "next/link";
+import { ArrowDownUp, ArrowUpRightFromSquare, MoveRight, MoveUpRight } from "lucide-react";
 
 const text = `Deception in Simplicity. Mastery in Every Pixel. We turn “boring” into a
 powerhouse of high-impact design, redefine what's possible with
@@ -38,7 +40,7 @@ const Manifesto = () => {
             <section className="md:px-24 w-full">
                 <div className="container md:mx-auto">
                     <div className="sticky top-20">
-                        <div className="mt-7 text-md md:text-3xl md:text-left bebas leading-snug tracking-wide max-w-[90%] md:max-w-[70%] mx-auto text-justify">
+                        <div className="mt-7 text-md md:text-3xl md:text-left bebas leading-snug tracking-wide  mx-auto text-justify">
                             <span className="uppercase tracking-tighter text-muted-foreground">
                                 Your Organization needs better and customized devices to work{" "}
                             </span>
@@ -56,8 +58,22 @@ const Manifesto = () => {
                                     </span>
                                 ))}
                             </span>
-                            <div className="text-5xl">
-                                hello
+                            <div className="text-xl my-24 md:mt-14 border-t-1 border-border flex flex-col md:flex-row md:items-center md:justify-between pt-7">
+                                <div>
+                                    <Link href={""} className="text-sm uppercase">For startups and founders</Link>
+                                </div>
+                                <div>
+                                    <Link href={""} className="text-sm uppercase">from design to deploy</Link>
+                                </div>
+                                <div className="mt-4 md:mt-0 flex items-center md:justify-start">
+                                    <Link
+                                        href={""}
+                                        className="px-7 py-3 text-sm border border-border rounded-full uppercase flex items-center"
+                                    >
+                                        Start the project
+                                        <MoveRight  className="h-3"/>
+                                    </Link>
+                                </div>
                             </div>
                             <span className="text-white block capitalise">
                             </span>

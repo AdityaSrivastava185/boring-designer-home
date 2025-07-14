@@ -4,113 +4,123 @@ import React from 'react';
 export default function Pricing() {
   return (
     <div className="md:pt-17">
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+      <section className="bg-foreground">
+        <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+          <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
 
-        <div className="border-border bg-card rounded-xl p-6">
-          <div className="flex justify-between items-center mb-6">
-            <h2 className="text-4xl font-bold">$500<span className="text-base font-normal"> /MONTH</span></h2>
-            <button className="text-xl font-bold text-white rounded-full w-8 h-8 flex items-center justify-center">+</button>
+            <div className="flex flex-col p-6 mx-auto max-w-lg text-center rounded-lg border border-border shadow xl:p-8 bg-background dark:text-white">
+              <h3 className="mb-4 text-2xl font-semibold">Starter</h3>
+              <p className="font-light text-muted-foreground sm:text-lg ">Best option for personal use & for your next project.</p>
+              <div className="flex justify-center items-baseline my-8">
+                <span className="mr-2 text-5xl font-extrabold">$29</span>
+                <span className="text-muted-foreground dark:text-gray-400">/month</span>
+              </div>
+
+              <ul role="list" className="mb-8 space-y-4 text-left">
+                <li className="flex items-center space-x-3">
+
+                  <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                  <span>Individual configuration</span>
+                </li>
+                <li className="flex items-center space-x-3">
+
+                  <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                  <span>No setup, or hidden fees</span>
+                </li>
+                <li className="flex items-center space-x-3">
+
+                  <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                  <span>Team size: <span className="font-semibold">1 developer</span></span>
+                </li>
+                <li className="flex items-center space-x-3">
+
+                  <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                  <span>Premium support: <span className="font-semibold">6 months</span></span>
+                </li>
+                <li className="flex items-center space-x-3">
+
+                  <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                  <span>Free updates: <span className="font-semibold">6 months</span></span>
+                </li>
+              </ul>
+              <Button className="">Get started</Button>
+            </div>
+
+            <div className="flex flex-col p-6 mx-auto max-w-lg text-center  rounded-lg border border-border shadow  xl:p-8 bg-background text-foreground">
+              <h3 className="mb-4 text-2xl font-semibold">Company</h3>
+              <p className="font-light text-muted-foreground sm:text-lg dark:text-gray-400">Relevant for multiple users, extended & premium support.</p>
+              <div className="flex justify-center items-baseline my-8">
+                <span className="mr-2 text-5xl font-extrabold">$99</span>
+                <span className="text-muted-foreground">/month</span>
+              </div>
+
+              <ul role="list" className="mb-8 space-y-4 text-left">
+                <li className="flex items-center space-x-3">
+
+                  <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                  <span>Individual configuration</span>
+                </li>
+                <li className="flex items-center space-x-3">
+
+                  <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                  <span>No setup, or hidden fees</span>
+                </li>
+                <li className="flex items-center space-x-3">
+
+                  <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                  <span>Team size: <span className="font-semibold">10 developers</span></span>
+                </li>
+                <li className="flex items-center space-x-3">
+
+                  <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                  <span>Premium support: <span className="font-semibold">24 months</span></span>
+                </li>
+                <li className="flex items-center space-x-3">
+
+                  <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                  <span>Free updates: <span className="font-semibold">24 months</span></span>
+                </li>
+              </ul>
+              <Button className="">Get started</Button>
+            </div>
+
+            <div className="flex flex-col p-6 mx-auto max-w-lg text-center  rounded-lg border border-border shadow  xl:p-8 bg-background text-foreground">
+              <h3 className="mb-4 text-2xl font-semibold">Enterprise</h3>
+              <p className="font-light text-muted-foreground sm:text-lg dark:text-gray-400">Best for large scale uses and extended redistribution rights.</p>
+              <div className="flex justify-center items-baseline my-8">
+                <span className="mr-2 text-5xl font-extrabold">$499</span>
+                <span className="text-muted-foreground dark:text-gray-400">/month</span>
+              </div>
+              <ul role="list" className="mb-8 space-y-4 text-left">
+                <li className="flex items-center space-x-3">
+                  <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                  <span>Individual configuration</span>
+                </li>
+                <li className="flex items-center space-x-3">
+
+                  <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                  <span>No setup, or hidden fees</span>
+                </li>
+                <li className="flex items-center space-x-3">
+
+                  <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                  <span>Team size: <span className="font-semibold">100+ developers</span></span>
+                </li>
+                <li className="flex items-center space-x-3">
+
+                  <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                  <span>Premium support: <span className="font-semibold">36 months</span></span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                  <span>Free updates: <span className="font-semibold">36 months</span></span>
+                </li>
+              </ul>
+              <Button className="">Get started</Button>
+            </div>
           </div>
-          <h3 className="text-xl font-semibold mb-6 tracking-wide">SINGLE LANDING PAGE DESIGN</h3>
-
-          <ul className="space-y-3 text-sm">
-            <li className="flex items-start gap-2">
-              <span className="text-green-400">✓</span> ONE-PAGE DESIGN IN FIGMA
-            </li>
-            <li className="flex items-start gap-2">
-              <span className="text-green-400">✓</span> MOBILE-FIRST & RESPONSIVE
-            </li>
-            <li className="flex items-start gap-2">
-              <span className="text-green-400">✓</span> UNLIMITED REVISIONS
-            </li>
-            <li className="flex items-start gap-2">
-              <span className="text-green-400">✓</span> CONVERSION-OPTIMIZED LAYOUT
-            </li>
-            <li className="flex items-start gap-2">
-              <span className="text-green-400">✓</span> 1 CONCEPT + UNLIMITED REVISIONS
-            </li>
-            <li className="flex items-start gap-2">
-              <span className="text-green-400">✓</span> DELIVERY IN 5-7 DAYS
-            </li>
-            <li className="flex items-start gap-2">
-              <span className="text-green-400">✓</span> EMAIL SUPPORT
-            </li>
-          </ul>
-          <Button className='w-full mt-3 cursor-pointer'>Book a call Now</Button>
         </div>
-
-        <div className="border bg-foreground text-background rounded-xl p-6">
-          <div className="flex justify-between items-center mb-6">
-            <h2 className="text-4xl font-bold">$800-$1000/-<span className="text-base font-normal"> /MONTH</span></h2>
-            <button className="text-xl font-bold text-white  rounded-full w-8 h-8 flex items-center justify-center">+</button>
-          </div>
-          <h3 className="text-xl font-semibold mb-6 tracking-wide flex items-center gap-2">
-            SINGLE PAGE DESIGN + CODE <span className="bg-background text-foreground px-2 py-1 text-xs rounded-full">PRO</span>
-          </h3>
-
-          <ul className="space-y-3 text-sm font-medium">
-            <li className="flex items-start gap-2">
-              <span className="text-green-400">✓</span> FIGMA DESIGN + FULL BUILD IN NEXT.JS, TAILWIND CSS, TYPESCRIPT
-            </li>
-            <li className="flex items-start gap-2">
-              <span className="text-green-400">✓</span> MOBILE RESPONSIVE
-            </li>
-            <li className="flex items-start gap-2">
-              <span className="text-green-400">✓</span> UNLIMITED REVISIONS
-            </li>
-            <li className="flex items-start gap-2">
-              <span className="text-green-400">✓</span> GITHUB REPO + DEPLOYED SITE
-            </li>
-            <li className="flex items-start gap-2">
-              <span className="text-green-400">✓</span> DELIVERY IN 7–10 DAYS
-            </li>
-            <li className="flex items-start gap-2">
-              <span className="text-green-400">✓</span> OPEN SOURCE DOCUMENTATION (1 PAGE)
-            </li>
-            <li className="flex items-start gap-2">
-              <span className="text-green-400">✓</span> EMAIL SUPPORT
-            </li>
-          </ul>
-          <Button className='w-full mt-3 cursor-pointer'>Book a call Now</Button>
-        </div>
-
-        <div className="border-border bg-card text-foreground rounded-xl p-6">
-          <div className="flex justify-between items-center mb-6">
-            <h2 className="text-4xl font-bold bebas">$600<span className="text-base font-normal bebas"> /MONTH</span></h2>
-            <button className="text-xl font-bold  rounded-full w-8 h-8 flex items-center justify-center">+</button>
-          </div>
-          <h3 className="text-xl mb-6 tracking-wide bebas uppercase">MULTI LANDING PAGE DESIGN</h3>
-
-          <ul className="space-y-3 text-sm">
-            <li className="flex items-start gap-2">
-              <span className="text-green-400">✓</span> MULTI-PAGE DESIGN IN FIGMA
-            </li>
-            <li className="flex items-start gap-2">
-              <span className="text-green-400">✓</span> MOBILE-FIRST & RESPONSIVE
-            </li>
-            <li className="flex items-start gap-2">
-              <span className="text-green-400">✓</span> UNLIMITED REVISIONS
-            </li>
-            <li className="flex items-start gap-2">
-              <span className="text-green-400">✓</span> CONVERSION-OPTIMIZED LAYOUT
-            </li>
-            <li className="flex items-start gap-2">
-              <span className="text-green-400">✓</span> 1 CONCEPT + UNLIMITED REVISIONS
-            </li>
-            <li className="flex items-start gap-2">
-              <span className="text-green-400">✓</span> DELIVERY IN 5-7 DAYS
-            </li>
-            <li className="flex items-start gap-2">
-              <span className="text-green-400">✓</span> EMAIL SUPPORT
-            </li>
-          </ul>
-          <Button className='w-full mt-3 bg-foreground cursor-pointer'>Book a call Now</Button>
-        </div>
-
-
-
-
-      </div>
+      </section>
     </div>
   );
 }

@@ -13,7 +13,7 @@ const HomeDetails = [
 const Footer = () => {
   return (
     <div>
-      <div className="hidden lg:grid lg:grid-cols-3 gap-4 md:my-10">
+      <div className="hidden lg:grid lg:grid-cols-3 gap-4 md:my-10 md:px-24">
         {HomeDetails.map((item, index) => (
           <div key={index} className="border-l-1 border-r-1 border-border md:px-5 overflow-hidden ">
             <div className=" text-foreground aspect-[5/1] md:flex md:items-center md:justify-center w-full">
@@ -32,7 +32,7 @@ const Footer = () => {
       </div>
       <MarqueeFooter />
       <div>
-        <div className="rounded-lg shadow-sm my-14">
+        <div className="rounded-lg shadow-sm my-14 md:px-24">
           <div className="w-full  mx-auto py-4 md:py-8">
             <div className="sm:flex sm:items-center sm:justify-between">
               <a href="" className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
