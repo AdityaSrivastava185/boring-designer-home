@@ -8,7 +8,7 @@ export const FAQItem = ({
   extra?: React.ReactNode;
 }) => (
   <div className="mb-10">
-    <h3 className="mb-4 text-lg font-medium text-foreground flex items-center">
+    <h3 className="mb-4 font-medium uppercase tracking-tighter bebas text-sm text-foreground flex items-center">
       <svg
         className="w-5 h-5 mr-2 text-muted-foreground"
         fill="currentColor"
@@ -23,7 +23,7 @@ export const FAQItem = ({
       </svg>
       {question}
     </h3>
-    <p className="text-muted-foreground">{answer}</p>
+    <p className="text-muted-foreground bebas text-xs uppercase">{answer}</p>
     {extra && <div className="mt-2">{extra}</div>}
   </div>
 );

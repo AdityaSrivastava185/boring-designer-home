@@ -56,6 +56,9 @@ const Manifesto = () => {
                                     </span>
                                 ))}
                             </span>
+                            <div className="text-5xl">
+                                hello
+                            </div>
                             <span className="text-white block capitalise">
                             </span>
                         </div>
