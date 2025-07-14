@@ -33,33 +33,74 @@ const Footer = () => {
       <MarqueeFooter />
       <div>
         <div className="rounded-lg shadow-sm my-14 md:px-24">
-          <div className="w-full  mx-auto py-4 md:py-8">
-            <div className="sm:flex sm:items-center sm:justify-between">
-              <a href="" className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
-                <span className="self-center text-[290%] md:text-[400%] font-bold tracking-tighter whitespace-nowrap dark:text-white bebas">BORINGDESIGNER.</span>
-              </a>
-              <ul className="flex flex-col md:flex-row md:items-center mb-6 text-sm font-medium sm:mb-0  md:gap-10 jetbrains-mono">
-                <li className='mb-3'>
-                  <a href="#" className="hover:underline ">About</a>
-                </li>
-                <li className='mb-3'>
-                  <a href="#" className="hover:underline">Privacy Policy</a>
-                </li>
-                <li className='mb-3'>
-                  <a href="#" className="hover:underline ">Licensing</a>
-                </li>
-                <li className='mb-3'>
-                  <a href="#" className="hover:underline">Contact</a>
-                </li>
-              </ul>
+          <div className="w-full mx-auto py-4 md:py-8">
+            <div className="sm:flex sm:items-start sm:justify-between gap-10">
+              <div className="flex flex-col">
+                <a href="/" className="flex items-center mb-4 space-x-3">
+                  <span className="self-center text-[290%] md:text-[400%] font-bold tracking-tighter whitespace-nowrap dark:text-white bebas">
+                    BORINGDESIGNER.
+                  </span>
+                </a>
+                <h1 className="text-[220%] md:text-[300%] font-bold tracking-tighter text-muted-foreground uppercase bebas">
+                  Ready to initiate
+                </h1>
+                <h1 className="text-[220%] md:text-[300%] font-bold tracking-tighter text-muted-foreground uppercase bebas">
+                  project
+                </h1>
+              </div>
+
+              <footer className="p-4 sm:p-6">
+                <div className="mx-auto max-w-screen-xl">
+                  <div className="md:flex md:justify-between">
+                    <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+                      <div>
+                        <h2 className="mb-6 text-sm font-semibold text-muted-foreground uppercase dark:text-white">Resources</h2>
+                        <ul className="text-gray-600 dark:text-gray-400">
+                          <li className="mb-4">
+                            <a href="" className="hover:underline">Valut</a>
+                          </li>
+                          <li className="mb-4">
+                            <a href="" className="hover:underline">Community</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div>
+                        <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
+                        <ul className="text-gray-600 dark:text-gray-400">
+                          <li className="mb-4">
+                            <a href="" className="hover:underline ">Mail</a>
+                          </li>
+                          <li>
+                            <a href="" className="hover:underline">Linkedin</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div>
+                        <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
+                        <ul className="text-gray-600 dark:text-gray-400">
+                          <li className="mb-4">
+                            <a href="#" className="hover:underline">Privacy Policy</a>
+                          </li>
+                          <li>
+                            <a href="#" className="hover:underline">Terms &amp; Conditions</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </footer>
             </div>
-            <hr className="my-6  sm:mx-auto border-border lg:my-8" />
-            <span className="block text-sm sm:text-center ">© 2025 <a href="" className="hover:underline">BORINGDESIGNER</a>. All Rights Reserved.</span>
+
+            <hr className="my-6 sm:mx-auto border-border lg:my-8" />
+
+            <span className="block text-sm text-center">
+              © 2025 <a href="/" className="hover:underline">BORINGDESIGNER</a>. All Rights Reserved.
+            </span>
           </div>
         </div>
-
-
       </div>
+
     </div>
   )
 }

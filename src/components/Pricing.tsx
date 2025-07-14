@@ -23,9 +23,13 @@ const Pricing = () => {
 
                     </div>
                     <div className='md:mt-10 mt-7'>
-                        <h4 className='text-muted-foreground jetbrains-mono md:tracking-tighter md:max-w-[50vw] text-wrap uppercase text-sm text-justify mx-auto'>Boring Designer is your unfair design advantage — a trusted one-man studio where ambitious founders, indie hackers, and early-stage startups turn their bold digital vision into high-converting, minimal realities.</h4>
+                        <h4 className='text-muted-foreground jetbrains-mono md:tracking-tighter md:max-w-[50vw] text-wrap uppercase text-sm text-justify mx-auto'>Go Pro with Boring Designer — your unfair design advantage.
+                            For founders, indie hackers, and early-stage startups who are serious about standing out — we craft sharp, minimal, conversion-obsessed design that turns bold digital ideas into unstoppable brands.</h4>
 
-                        <h4 className='text-muted-foreground jetbrains-mono md:tracking-tighter md:max-w-[50vw] text-wrap uppercase text-sm mt-7 mx-auto'>This isn&apos;t just a design portfolio. It&apos;s a hall of builders.If your startup makes it here, it means you're signal, not noise.People won&apos;t ask who built your site — <span className='text-foreground'>they&apos;ll ask who the hell are you?</span></h4>
+                        <h4 className='text-muted-foreground jetbrains-mono md:tracking-tighter md:max-w-[50vw] text-wrap uppercase text-sm mt-7 mx-auto'>This isn&apos;t a portfolio. It&apos;s a gallery of the bold.
+                            If your startup&apos;s listed here, it means you're signal — not noise.
+                            People won&apos;t ask who built your site.
+                            <span className="text-foreground font-bold">They&apos;ll ask — who the hell are you?</span></h4>
                     </div>
                 </div>
             </div>
@@ -40,7 +44,7 @@ const Pricing = () => {
                         </h2>
                     </div>
                     <div>
-                        <p className='hidden md:block text-muted-foreground uppercase md:max-w-[20vw] jetbrains-mono text-center'>pick your monthly charges and get the credibility of bein amazing</p>
+                        <p className='hidden md:block text-muted-foreground uppercase md:max-w-[20vw] jetbrains-mono text-center'>pick your monthly charges and get the credibility of being amazing</p>
                     </div>
                 </div>
                 <div>

@@ -5,12 +5,23 @@ import { useScroll, useTransform } from "framer-motion";
 import Link from "next/link";
 import { ArrowDownUp, ArrowUpRightFromSquare, MoveRight, MoveUpRight } from "lucide-react";
 
-const text = `Deception in Simplicity. Mastery in Every Pixel. We turn “boring” into a
-powerhouse of high-impact design, redefine what's possible with
-subscription-based web design. You get high-quality, custom UI/UX
-designs, rapid frontend development, and open-source website
-maintenance—all seamlessly delivered under one simple monthly
-plan.That's why we created BoringDesigner.`;
+const text = `We don't design websites.
+We design trust, clarity, and momentum.
+
+We're not here for everyone.
+We co-build with founders, indie hackers, and misfits who dare to disrupt.
+
+We believe your product is only as powerful as the page that presents it.
+No fluff. No friction. Just focused, conversion-led design.
+
+We ship fast. We ship sharp.
+You lead the idea — we lead the interface.
+
+This is not a service.
+This is a partnership — in pixels, performance, and punch.
+
+If your mission is loud,
+your landing page shouldn't whisper.`;
 
 const words = text.split(" ");
 
@@ -50,7 +61,7 @@ const Manifesto = () => {
                                         key={index}
                                         className={
                                             index <= Math.floor(currentWord)
-                                                ? "transition duration-500 text-white font-semibold"
+                                                ? "transition duration-500 text-white "
                                                 : ""
                                         }
                                     >

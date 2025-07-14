@@ -28,12 +28,13 @@ const Hero = () => {
               We create
             </h1>
             <h1 className="tracking-tighter alise text-5xl md:text-8xl font-bold  uppercase  bebas">
-             <div className="h-10 w-14 md:w-32 md:h-20 bg-red-500 rounded-lg inline-block"></div> eye-opening
+              <div className="h-10 w-14 md:w-32 md:h-20 bg-red-500 rounded-lg inline-block"></div> scroll-stopping
             </h1>
             <h1 className=" text-5xl md:text-8xl font-bold bebas uppercase tracking-tighter">landing pages</h1>
           </div>
           <div className=" mb-7 md:mb-14 md:max-w-[50%] max-w-[90%]">
-            <p className=" text-muted-foreground text-xs md:text-lg bebas uppercase md:leading-5">You build the startup. We make it look unstoppable . We co-design high-trust, conversion-obsessed websites for founders, developers, and indie hackers</p>
+            <p className=" text-muted-foreground text-xs md:text-lg bebas uppercase md:leading-5">You build the vision — we shape the face of it.
+              Boring Designer partners with ambitious founders, indie hackers & devs to design high-trust, high-conversion websites that look as powerful as your product feels.</p>
           </div>
 
           <div className="mb-14 flex flex-row justify-start gap-7 item-start md:items-start md:justify-start w-full md:w-auto">
