@@ -28,7 +28,7 @@ const Hero = () => {
               We create
             </h1>
             <h1 className="tracking-tighter alise text-4xl md:text-8xl font-bold  uppercase  bebas">
-              <div className="h-10 w-14 md:w-32 md:h-20 bg-red-500 rounded-lg inline-block"></div> scroll-stopping
+              <div className="h-7 w-14 md:w-32 md:h-20 bg-foreground rounded-lg inline-block"></div> scroll-stopping
             </h1>
             <h1 className=" text-4xl md:text-8xl font-bold bebas uppercase tracking-tighter">landing pages</h1>
           </div>
