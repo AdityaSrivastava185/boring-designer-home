@@ -3,8 +3,9 @@
 import React from 'react'
 import Cal, { getCalApi } from "@calcom/embed-react";
 import { useEffect } from 'react';
+import { MoveRight } from 'lucide-react';
 
-const words = ""
+const words = "Boring -Designer is always here for every vision -and obvisouly not for boring stuff we embrace minimalism, silence, and precision to craft designs that dominate. We thrive in the shadows, where the overlooked transforms into the unforgettable.This is not just design. This is calculated impact."
 
 const ContactUs = () => {
     useEffect(() => {
@@ -29,7 +30,14 @@ const ContactUs = () => {
             <div className='flex items-center justify-center mt-10 md:max-w-[70vw] mx-auto pb-7 md:pb-0'>
                 <p className='text-left md:text-center text-bebas text-lg md:text-2xl uppercase md:font-bold font-medium'>{words}</p>
             </div>
+            <div className='flex flex-col md:flex-row items-center justify-between md:max-w-[50%] mx-auto mt-4 md:mt-7'>
+                <div className='flex flex-row items-center justify-center'><p className='text-xl font-bold uppercase '>Linkedin</p><MoveRight  className="h-3"/></div>
+                <div className='flex flex-row items-center justify-center'><p className='text-xl font-bold uppercase '>Twitter</p><MoveRight  className="h-3"/></div>
+                <div className='flex flex-row items-center justify-center'><p className='text-xl font-bold uppercase '>Peerlist</p><MoveRight  className="h-3"/></div>
+            </div>
         </div>
+
+
     )
 }
 

@@ -9,18 +9,18 @@ const AboutUs = () => {
     return (
         <div className=' pt-14 md:py-14 md:px-24'>
             <div className=''>
-                <h1 className="text-muted-background jetbrians-mono uppercase text-sm text-center">[ about us ]</h1>
+                <h1 className="text-muted-background py-7 jetbrians-mono uppercase text-sm text-center">[ about us ]</h1>
             </div>
             <div className=' border-b-1 border-border pb-14 w-full'>
                 <h2 className="md:mt-7 text-foreground md:text-5xl uppercase font-bold tracking-tight bebas text-2xl bebas md:tracking-tighter text-center pb-7 md:max-w-[60%] mx-auto">
                     Wanna know about us ? we always believe in simplicity and minimalism
                 </h2>
-                <div className="w-full px-4 md:px-0">
-                    <h2 className="text-xs md:text-xl text-muted-foreground bebas tracking-tighter uppercase mx-auto flex flex-wrap justify-center md:justify-start gap-2">
+                <div className=" md:px-0">
+                    <h2 className="text-xs md:text-lg text-foreground bebas tracking-tighter uppercase flex flex-wrap justify-center md:justify-start md:gap-2">
                         {words.map((word, index) => (
                             <span
                                 key={index}
-                                className="border border-border px-3 py-2 rounded-full min-w-[80px] md:min-w-[110px] min-h-[40px] flex items-center justify-center "
+                                className="border border-border px-3 py-2 rounded-full min-w-[80px] md:min-w-[110px] min-h-[20px] flex items-center justify-center "
                             >
                                 {word}
                             </span>

@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
 @import "tailwindcss";
 @import "tw-animate-css";
@@ -84,7 +82,7 @@
 
 .dark {
   --secondary-bebas: #e9e9e9;
-  --background: oklch(0.145 0 0);
+  --background: #000;
   --foreground: oklch(0.985 0 0);
   --card: oklch(0.205 0 0);
   --card-foreground: oklch(0.985 0 0);
@@ -126,22 +124,24 @@
   }
 }
 
-/* body{
-  background-image: url('/bg.png');
+body{
+  background-image: url('/bg-pattern.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-} */
-
-.title{
-  font-family: 'Tilt Warp', cursive;
 }
+.bg-background{
+  background-image: url('/bg-pattern.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
 .bebas{
   font: 'Bebas Neue', cursive;
-}
-.jetbrains-mono{
-  font-family: 'JetBrains Mono', monospace;
 }
 .max-width{
   @apply md:max-w-[90%] mx-auto;
