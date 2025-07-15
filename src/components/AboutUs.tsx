@@ -9,10 +9,10 @@ const AboutUs = () => {
     return (
         <div className=' pt-14 md:py-14 md:px-24'>
             <div className=''>
-                <h1 className="text-muted-background py-7 jetbrians-mono uppercase text-sm text-center">[ about us ]</h1>
+                <h1 className="text-muted-background pb-2 jetbrians-mono uppercase text-sm md:text-center">[ about us ]</h1>
             </div>
-            <div className=' border-b-1 border-border pb-14 w-full'>
-                <h2 className="md:mt-7 text-foreground md:text-5xl uppercase font-bold tracking-tight bebas text-2xl bebas md:tracking-tighter text-center pb-7 md:max-w-[60%] mx-auto">
+            <div className=' border-b-1 border-border md:pb-14 w-full'>
+                <h2 className="md:mt-7 text-foreground md:text-5xl uppercase font-bold tracking-tight bebas text-2xl bebas md:tracking-tighter md:text-center pb-7 md:max-w-[60%] md:mx-auto">
                     Wanna know about us ? we always believe in simplicity and minimalism
                 </h2>
                 <div className=" md:px-0">
@@ -28,9 +28,9 @@ const AboutUs = () => {
                     </h2>
                 </div>
             </div>
-            <div className="mt-10 w-full flex flex-col items-center justify-center">
+            <div className="mt-10 w-full flex flex-col md:items-center md:justify-center">
                 <div className="w-full mx-auto">
-                    <h1 className="text-center text-3xl md:text-5xl font-bold bebas tracking-tight md:tracking-tighter text-foreground uppercase max-w-[70%] md:max-w-[40%] mx-auto">
+                    <h1 className="md:text-center text-3xl md:text-5xl font-bold bebas tracking-tight md:tracking-tighter text-foreground uppercase max-w-[70%] md:max-w-[40%] md:mx-auto">
                         What to expect from us
                     </h1>
                 </div>

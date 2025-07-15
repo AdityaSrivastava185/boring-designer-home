@@ -6,12 +6,12 @@ const Pricing = () => {
         <div className='py-17'>
             <div className='md:px-24'>
                 <div className=''>
-                    <h1 className="text-muted-background jetbrians-mono uppercase text-sm text-center pb-7">[ be part of pro ]</h1>
+                    <h1 className="text-muted-background jetbrians-mono uppercase text-sm md:text-center pb-2 md:pb-7">[ be part of pro ]</h1>
                 </div>
-                <div className='flex flex-col items-center justify-between w-full h-auto mx-auto md:mb-10'>
-                    <div className='md:mt-10 mt-7'>
-                        <div className="w-full max-w-[80%] md:max-w-[50%] mx-auto pb-7">
-                            <h1 className="text-center text-2xl md:text-5xl font-bold bebas tracking-tight md:tracking-tighter text-foreground uppercase">
+                <div className='flex flex-col md:items-center md:justify-between w-full h-auto mx-auto md:mb-10'>
+                    <div className='md:mt-10'>
+                        <div className="w-full max-w-[80%] md:max-w-[50%] md:mx-auto pb-7">
+                            <h1 className="md:text-center text-2xl md:text-5xl font-bold bebas tracking-tight md:tracking-tighter text-foreground uppercase">
                                 A necessary investment for your startup or your personal brand.
                             </h1>
                         </div>
