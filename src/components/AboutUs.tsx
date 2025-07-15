@@ -11,8 +11,8 @@ const AboutUs = () => {
             <div className=''>
                 <h1 className="text-muted-background pb-2 jetbrians-mono uppercase text-sm md:text-center">[ about us ]</h1>
             </div>
-            <div className=' border-b-1 border-border md:pb-14 w-full'>
-                <h2 className="md:mt-7 text-foreground md:text-5xl uppercase font-bold tracking-tight bebas text-2xl bebas md:tracking-tighter md:text-center pb-7 md:max-w-[60%] md:mx-auto">
+            <div className=' border-b-1 border-border pb-14 w-full'>
+                <h2 className="md:mt-7 text-foreground md:text-5xl uppercase font-bold tracking-tight bebas text-2xl bebas md:tracking-tighter md:text-center pb-7 md:max-w-[60%]  max-w-[80%] md:mx-auto">
                     Wanna know about us ? we always believe in simplicity and minimalism
                 </h2>
                 <div className=" md:px-0">
