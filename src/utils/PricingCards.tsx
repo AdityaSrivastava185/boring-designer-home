@@ -5,7 +5,7 @@ export default function Pricing() {
   return (
     <div className="">
       <section className="">
-        <div className=" px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+        <div className=" mx-auto max-w-screen-xl lg:py-16 lg:px-6">
           <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
             <div className="flex flex-col p-6 mx-auto max-w-lg text-center rounded-lg border border-border shadow xl:p-8 dark:text-white bg-[#030303]">
               <h3 className="mb-4 text-2xl font-bold uppercase bebas">single landing page design</h3>
@@ -15,18 +15,18 @@ export default function Pricing() {
                 <span className="text-muted-foreground dark:text-gray-400">/MONTH</span>
               </div>
 
-              <ul role="list" className="mb-8 space-y-4 text-left bg-background p-4 md:p-7 rounded-xl">
+              <ul role="list" className="mb-8 space-y-4 text-left bg-background md:p-7 rounded-xl">
                 <li className="flex items-center space-x-3">
                   <svg className="flex-shrink-0 w-5 h-5 text-foreground " fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
                   <span className='text-xs text-muted-foreground bebas uppercase'>one page design in figma</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <svg className="flex-shrink-0 w-5 h-5 text-foreground " fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
-                   <span className='text-xs text-muted-foreground bebas uppercase'>unlimited revisions</span>
+                  <span className='text-xs text-muted-foreground bebas uppercase'>unlimited revisions</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <svg className="flex-shrink-0 w-5 h-5 text-foreground " fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
-                   <span className='text-xs text-muted-foreground bebas uppercase'>monile-first & responsive</span>
+                  <span className='text-xs text-muted-foreground bebas uppercase'>monile-first & responsive</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <svg className="flex-shrink-0 w-5 h-5 text-foreground " fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
@@ -64,7 +64,7 @@ export default function Pricing() {
                 </li>
                 <li className="flex items-center space-x-3">
                   <svg className="flex-shrink-0 w-5 h-5 text-foreground " fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
-                   <span className='text-xs bebas uppercase text-muted-foreground'> Mobile responsive</span>
+                  <span className='text-xs bebas uppercase text-muted-foreground'> Mobile responsive</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <svg className="flex-shrink-0 w-5 h-5 text-foreground " fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
@@ -127,7 +127,7 @@ export default function Pricing() {
                   <svg className="flex-shrink-0 w-5 h-5 text-foreground " fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path></svg>
                   <span className='text-xs bebas uppercase text-muted-foreground'>Email support</span>
                 </li>
-                
+
               </ul>
               <Button className="">Get started</Button>
             </div>

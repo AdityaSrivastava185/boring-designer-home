@@ -15,7 +15,7 @@ const ContactUs = () => {
         })();
     }, [])
     return (
-        <div className='md:pb-14 '>
+        <div className='md:pb-14 ' id='contactus'>
             <div className='w-full flex flex-col  md:items-center md:justify-center'>
                 <p className="text-muted-background jetbrains-mono uppercase text-sm md:text-center py-2 md:py-7">[ Contact us ]</p>
                 <h1 className='text-foreground md:text-5xl uppercase font-bold tracking-tight bebas text-2xl bebas md:tracking-tighter max-w-[80%] md:max-w-[50%]  pb-14 md:text-center'>Let us know and drop a meeting or mail to us</h1>

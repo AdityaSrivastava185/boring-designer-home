@@ -3,7 +3,7 @@ import React from 'react'
 
 const Pricing = () => {
     return (
-        <div className='py-17'>
+        <div className='py-17' id='pricing'>
             <div className='md:px-24'>
                 <div className=''>
                     <h1 className="text-muted-background jetbrians-mono uppercase text-sm md:text-center pb-2 md:pb-7">[ be part of pro ]</h1>

@@ -15,8 +15,8 @@ const AboutUs = () => {
                 <h2 className="md:mt-7 text-foreground md:text-5xl uppercase font-bold tracking-tight bebas text-2xl bebas md:tracking-tighter md:text-center pb-7 md:max-w-[60%]  max-w-[80%] md:mx-auto">
                     Wanna know about us ? we always believe in simplicity and minimalism
                 </h2>
-                <div className=" md:px-0">
-                    <h2 className="text-xs md:text-lg text-foreground bebas tracking-tighter uppercase flex flex-wrap justify-center md:justify-start md:gap-2">
+                <div className="px-0">
+                    <h2 className="text-xs md:text-lg text-foreground bebas tracking-tighter uppercase flex flex-wrap justify-start">
                         {words.map((word, index) => (
                             <span
                                 key={index}

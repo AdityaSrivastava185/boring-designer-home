@@ -41,7 +41,7 @@ const Manifesto = () => {
     }, [wordIndex]);
 
     return (
-        <div className=" pt-7 md:my-14">
+        <div className=" pt-7 md:my-14" id="manifesto">
             <div className="md:flex flex-col md:items-center md:justify-center w-full">
                 <div className=" md:py-14 md:px-7 max-w-[70%] md:w-full md:mx-auto">
                     <p className="text-muted-background jetbrains-mono uppercase text-sm md:text-center pb-2">[ Our Manifesto ]</p>
