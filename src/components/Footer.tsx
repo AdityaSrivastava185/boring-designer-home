@@ -4,7 +4,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <div>
-      <div className='max-width '>
+      <div className='max-width pb-7 mt:pb-0'>
         <h1 className='md:text-[9vw] font-bold text-center bebas'>BORINGDESIGNER</h1>
       </div>
       <div className='flex flex-col md:flex-row items-center justify-between text-muted-foreground text-sm md:text-base px-7 py-4 border-t border-border'>
