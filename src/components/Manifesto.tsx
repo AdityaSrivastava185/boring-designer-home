@@ -78,7 +78,7 @@ const Manifesto = () => {
                                 </div>
                                 <div className="mt-2 md:mt-0 flex items-center md:justify-start">
                                     <Link
-                                        href={""}
+                                        href={"/#contactus"}
                                         className="md:px-7 md:py-3 text-sm md:border md:border-border rounded-full uppercase flex items-center"
                                     >
                                         Start the project
