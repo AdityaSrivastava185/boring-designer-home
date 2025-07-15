@@ -5,7 +5,7 @@ import { FAQItem } from "@/utils/FaqItem"
 const containerQuestionsOne = [{
     id: "01",
     question: "What is Boring Designer?",
-    answer: "Boring Designer is a subscription-based web design service that provides high-quality, custom UI/UX designs, rapid frontend development, and open-source website maintenance for startups and indie hackers."
+    answer: "Boring Designer is a subscription-based web design studio that provides high-quality, custom designs, rapid frontend development, and open-source website maintenance for startups and indie hackers only."
 },
 {
     id: "02",
@@ -20,12 +20,15 @@ const containerQuestionsOne = [{
 {
     id: "04",
     question: "Can I cancel my subscription at any time?",
-    answer: "Yes, you can cancel your subscription at any time. However, we recommend discussing your needs with us before cancellation to ensure you get the most out of our services."
+    answer: "Yes, you can cancel your subscription at any time. However, we recommend discussing your needs with us before cancellation to ensure you get the most out of our services. We will cancel your subscription and will return 90% of your payment because we also invested energy and time in your project."
 },
-{
+]
+
+const containerQuestionTwo = [
+   {
     id: "05",
     question: "What is the process for getting started?",
-    answer: "To get started, simply subscribe to one of our plans, and we will reach out to discuss your design needs and project requirements."
+    answer: "To get started, simply first schedule a free call to discuss about your project and then subscribe to get started."
 },
 {
     id: "06",
@@ -35,16 +38,15 @@ const containerQuestionsOne = [{
 {
     id: "07",
     question: "How long does it take to complete a project?",
-    answer: "The timeline for project completion varies based on the complexity of the design and development work. We will provide an estimated timeline during the initial consultation."
+    answer: "The timeline for project completion varies based on the complexity of the design and development work. We will provide an estimated timeline during the initial consultation . We will keep you updated through emails and slack support"
 },
 {
     id: "08",
     question: "What if I need ongoing support after my project is completed?",
-    answer: "Our subscription model includes ongoing support and maintenance, ensuring your website remains up-to-date and functional."
+    answer: "Our subscription model includes ongoing support and maintenance, ensuring your website remains up-to-date and functional for an estimated time frame."
 
 }
 ]
-
 const Faqs = () => {
     return (
         <div className='md:px-24'>
@@ -59,110 +61,28 @@ const Faqs = () => {
             </div>
             <section className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
                 <div className="grid pt-8 md:gap-16 md:grid-cols-2 text-left">
-                    {/* Left Column */}
                     <div>
-                        <FAQItem
-                            question="What do you mean by 'Figma assets'?"
-                            answer="You will have access to download the full Figma project including all of the pages, components, responsive pages, and also the icons, illustrations, and images included in the screens."
-                        />
-
-                        <FAQItem
-                            question="What does 'lifetime access' exactly mean?"
-                            answer="Once you have purchased either the design, code, or both packages, you will have access to all of the future updates based on the roadmap, free of charge."
-                        />
-
-                        <FAQItem
-                            question="How does support work?"
-                            answer="Support is provided directly by the authors who worked on this project. Feel free to contact us and we’ll help you out as soon as we can."
-                            extra={
-                                <p className="text-muted-foreground">
-                                    Feel free to{" "}
-                                    <a
-                                        href="#"
-                                        className="font-medium underline text-primary-600 dark:text-primary-500 hover:no-underline"
-                                        target="_blank"
-                                        rel="noreferrer"
-                                    >
-                                        contact us
-                                    </a>{" "}
-                                    and we'll help you out as soon as we can.
-                                </p>
-                            }
-                        />
-
-                        <FAQItem
-                            question="I want to build more than one project. Is that allowed?"
-                            answer="You can use Windster for unlimited projects, whether personal, SaaS, or client work. Just don&apos;t build a competing UI kit, theme, or template."
-                            extra={
-                                <p className="text-muted-foreground">
-                                    Find out more by{" "}
-                                    <a
-                                        href="#"
-                                        className="font-medium underline text-primary-600 dark:text-primary-500 hover:no-underline"
-                                    >
-                                        reading the license
-                                    </a>
-                                    .
-                                </p>
-                            }
-                        />
+                        {
+                            containerQuestionsOne.map((item) => (
+                                <FAQItem
+                                    key={item.id}
+                                    question={item.question}
+                                    answer={item.answer}
+                                />
+                            ))} 
                     </div>
 
                     {/* Right Column */}
                     <div>
-                        <FAQItem
-                            question="What does 'free updates' include?"
-                            answer={
-                                <>
-                                    Free updates follow our{" "}
-                                    <a
-                                        href="#"
-                                        className="font-medium underline text-primary-600 dark:text-primary-500 hover:no-underline"
-                                    >
-                                        roadmap
-                                    </a>
-                                    . Additional updates outside the roadmap may also be provided.
-                                </>
-                            }
-                        />
-
-                        <FAQItem
-                            question="What does the free version include?"
-                            answer={
-                                <>
-                                    The{" "}
-                                    <a
-                                        href="#"
-                                        className="font-medium underline text-primary-600 dark:text-primary-500 hover:no-underline"
-                                    >
-                                        free version
-                                    </a>{" "}
-                                    includes minimal style guidelines, component variants, and a mobile-compatible dashboard page. It’s open-source under the MIT license.
-                                </>
-                            }
-                        />
-
-                        <FAQItem
-                            question="What is the difference between Windster and Tailwind UI?"
-                            answer="Windster includes additional design styles, UI elements, and pages compared to Tailwind UI. It also covers application, marketing, and e-commerce interfaces."
-                        />
-
-                        <FAQItem
-                            question="Can I use Windster in open-source projects?"
-                            answer="Yes, Windster can be used in open-source projects as long as it's not used to build a competing UI kit or template."
-                            extra={
-                                <p className="text-muted-foreground">
-                                    Find out more by{" "}
-                                    <a
-                                        href="#"
-                                        className="font-medium underline text-primary-600 dark:text-primary-500 hover:no-underline"
-                                    >
-                                        reading the license
-                                    </a>
-                                    .
-                                </p>
-                            }
-                        />
+                        {
+                            containerQuestionTwo.map((item) => (
+                                <FAQItem
+                                    key={item.id}
+                                    question={item.question}
+                                    answer={item.answer}
+                                />
+                            ))
+                        }
                     </div>
                 </div>
             </section>

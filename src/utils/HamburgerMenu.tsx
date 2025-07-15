@@ -3,9 +3,7 @@
 import { Button } from "@/components/ui/button"
 import {
   Drawer,
-  DrawerClose,
   DrawerContent,
-  DrawerDescription,
   DrawerFooter,
   DrawerHeader,
   DrawerTitle,
@@ -13,48 +11,76 @@ import {
 } from "@/components/ui/drawer"
 import { Menu } from "lucide-react"
 import Link from "next/link"
-import React from "react"
-import { useState } from "react"
+import React, { useState } from "react"
+import { useRouter } from "next/navigation"
 
 export function HamburgerMenu() {
-  const [goal, setGoal] = useState(350)
+  const [isOpen, setIsOpen] = useState(false)
+  const router = useRouter()
 
-  function onClick(adjustment: number) {
-    setGoal(Math.max(200, Math.min(400, goal + adjustment)))
+  const handleLinkClick = (href: string) => {
+    setIsOpen(false) // close drawer
+    router.push(href)
   }
 
   return (
-    <Drawer>
+    <Drawer open={isOpen} onOpenChange={setIsOpen}>
       <DrawerTrigger asChild>
-        <Button variant="outline"> <Menu /> </Button>
+        <Button variant="ghost" onClick={() => setIsOpen(true)}>
+          <Menu />
+        </Button>
       </DrawerTrigger>
       <DrawerContent>
-        <div className="mx-auto w-full max-w-sm">
+        <div className="w-full max-w-sm">
           <DrawerHeader>
-            <DrawerTitle className="bebas text-4xl uppercase  font-bold ">boringdesigner</DrawerTitle>
+            <DrawerTitle className="bebas text-4xl uppercase font-bold">
+              boringdesigner
+            </DrawerTitle>
           </DrawerHeader>
           <DrawerFooter>
-            <div className="flex items-center justify-center flex-col gap-4">
-              <Link href="#" className="font-medium bebas uppercase text-xs">
+            <div className="flex flex-col gap-4 px-3">
+              <button onClick={() => handleLinkClick("/#aboutus")} className="font-medium bebas uppercase text-xs text-left">
                 about us
-              </Link>
-              <Link href="#" className="font-medium bebas uppercase text-xs">
+              </button>
+              <button onClick={() => handleLinkClick("/#manifesto")} className="font-medium bebas uppercase text-xs text-left">
                 manifesto
-              </Link>
-              <Link href="#" className="font-medium bebas uppercase text-xs">
+              </button>
+              <button onClick={() => handleLinkClick("")} className="font-medium bebas uppercase text-xs text-left">
                 portfolio companies
-              </Link>
-              <Link href="#" className="font-medium bebas uppercase text-xs">
+                <span className="mx-2 rounded-full px-2 py-1 text-xs bebas uppercase text-foreground border border-foreground animate-pulse">
+                  launching soon
+                </span>
+              </button>
+              <button onClick={() => handleLinkClick("")} className="font-medium bebas uppercase text-xs text-left">
                 vault
-              </Link>
-              <Link href="#" className="font-medium bebas uppercase text-xs">
+                <span className="mx-2 rounded-full px-2 py-1 text-xs bebas uppercase text-foreground border border-foreground animate-pulse">
+                  launching soon
+                </span>
+              </button>
+              <button onClick={() => handleLinkClick("/#pricing")} className="font-medium bebas uppercase text-xs text-left">
                 pricing
-              </Link>
-              <Link href="#" className="font-medium bebas uppercase text-xs">
-                community programs
-              </Link>
+              </button>
+              <button onClick={() => handleLinkClick("")} className="font-medium bebas uppercase text-xs text-left">
+                community programs <span className="mx-2 rounded-full px-2 py-1 text-xs bebas uppercase text-foreground border border-foreground animate-pulse">
+                  launching soon
+                </span>
+              </button>
             </div>
 
+            <div className="mt-6 mb-3 flex flex-col md:flex-row justify-start gap-3 md:gap-7 item-start md:items-start md:justify-start w-full md:w-auto">
+              <Button
+                onClick={() => handleLinkClick("/#contactus")}
+                className="font-semibold cursor-pointer bebas rounded-xl px-7 py-5 bg-foreground text-background uppercase"
+              >
+                Initiate project
+              </Button>
+              <Button
+                onClick={() => handleLinkClick("/#vault")}
+                className="font-semibold cursor-pointer hover:bg-sidebar-accent hover:text-muted-foreground bebas transition-color duration-300 rounded-xl px-7 py-5 bg-muted text-foreground uppercase"
+              >
+                Explore the vault
+              </Button>
+            </div>
           </DrawerFooter>
         </div>
       </DrawerContent>

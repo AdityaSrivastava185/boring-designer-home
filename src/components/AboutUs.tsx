@@ -7,7 +7,7 @@ const words = paragraph.split(' ');
 
 const AboutUs = () => {
     return (
-        <div className=' pt-14 md:py-14 md:px-24'>
+        <div className=' pt-14 md:py-14 md:px-24' id='#aboutus'>
             <div className=''>
                 <h1 className="text-muted-background pb-2 jetbrians-mono uppercase text-sm md:text-center">[ about us ]</h1>
             </div>

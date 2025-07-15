@@ -1,7 +1,11 @@
+"use client"
+
 import { Button } from '@/components/ui/button';
 import React from 'react';
+import { useRouter } from 'next/navigation';
 
 export default function Pricing() {
+  const router = useRouter()
   return (
     <div className="">
       <section className="">
@@ -45,7 +49,7 @@ export default function Pricing() {
                   <span className='text-xs text-muted-foreground bebas uppercase'>email support</span>
                 </li>
               </ul>
-              <Button className="">Get started</Button>
+              <Button onClick={() => router.push("/#contactus")} className="cursor-pointer">Get started</Button>
             </div>
 
             {/* Company Plan */}
@@ -87,7 +91,7 @@ export default function Pricing() {
                   <span className='text-xs bebas uppercase text-muted-foreground'>Email support</span>
                 </li>
               </ul>
-              <Button className="">Get started</Button>
+               <Button onClick={() => router.push("/#contactus")} className="cursor-pointer">Get started</Button>
             </div>
 
             {/* Enterprise Plan */}
@@ -129,7 +133,7 @@ export default function Pricing() {
                 </li>
 
               </ul>
-              <Button className="">Get started</Button>
+               <Button onClick={() => router.push("/#contactus")} className="cursor-pointer">Get started</Button>
             </div>
 
           </div>
