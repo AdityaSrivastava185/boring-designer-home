@@ -6,7 +6,6 @@ import { Button } from "./ui/button";
 import { useRouter } from "next/navigation";
 import MarqueeFooter from "@/utils/MarqueeFooter";
 import { HeroVideo } from "@/utils/VideoComponent";
-import Badge from "@/utils/Badge";
 
 const HomeDetails = [
   { title: "manifesto", description: " We design perception. We're for the ones who dare to be loud without shouting. Who build in public, with a wild heart and a clean layout. If your vision shakes the ground — we'll give it the face it deserves." },
@@ -23,7 +22,7 @@ const Hero = () => {
       <div className="max-width">
         <div className="md:mt-7 mb-7 ">
           <div className="flex justify-center md:block">
-            <div className="px-2 py-2 inline-flex items-center justify-center md:px-5 md:py-2 rounded-full border-2 border-border bg-[#111111] text-muted-foreground my-2 md:my-0 mx-auto">
+            <div className="px-2 py-2 inline-flex items-center justify-center md:px-5 md:py-2 rounded-full border-2 border-border bg-[#111111] text-muted-foreground mb-2 mt-4 md:mt-0 md:mb-0 mx-auto">
               <div className="mr-2 h-3 w-3 rounded-full animate-pulse bg-foreground">
                 <div className="mr-2 h-2 w-2 rounded-full animate-pulse bg-foreground"></div>
               </div>

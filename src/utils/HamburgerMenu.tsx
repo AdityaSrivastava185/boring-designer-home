@@ -13,6 +13,7 @@ import { Menu } from "lucide-react"
 import Link from "next/link"
 import React, { useState } from "react"
 import { useRouter } from "next/navigation"
+import Image from "next/image"
 
 export function HamburgerMenu() {
   const [isOpen, setIsOpen] = useState(false)
@@ -34,7 +35,16 @@ export function HamburgerMenu() {
         <div className="w-full max-w-sm">
           <DrawerHeader>
             <DrawerTitle className="bebas text-4xl uppercase font-bold">
-              boringdesigner
+              <div className="w-28 h-auto">
+                <Image
+                  src="/logo.png"
+                  alt="Boring Designer Logo"
+                  width={112}
+                  height={32}
+                  className="object-contain w-full h-auto"
+                  priority
+                />
+              </div>
             </DrawerTitle>
           </DrawerHeader>
           <DrawerFooter>
