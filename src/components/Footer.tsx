@@ -11,7 +11,7 @@ const Footer = () => {
         <div>
           <p className='text-xl font-bold uppercase text-foreground bebas'>©2025 All RIGHTS Reserved</p>
         </div>
-        <div className='cursor-pointer text-xl font-bold text-foreground bebas'>BACK TO TOP</div>
+        <div className='cursor-pointer text-xl font-bold text-foreground bebas' onClick={() => window.scrollTo(0, 0)}>BACK TO TOP</div>
       </div>
     </div>
   )
