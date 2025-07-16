@@ -1,20 +1,20 @@
 const items = [
     {
-        body: "I've been in the design game",
+        body: "Minimal. Tactical. Unforgettable.",
     },
     {
-        body: "I'm a newbie designer",
+        body: "We make it look legendary.",
     },
     {
-        body: "This design kit is a game changer",
-    },
-    {
-
-        body: "I'm a newbie designer and this kit ",
+        body: "One studio. Zero noise.",
     },
     {
 
-        body: "I'm a newbie designer and this kit ",
+        body: "Design is your edge. We sharpen it. ",
+    },
+    {
+
+        body: "Welcome to Boring Designer.",
     },
 ]
 
