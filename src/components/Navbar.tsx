@@ -35,7 +35,7 @@ const Navbar = () => {
                 <div className='hidden md:flex items-center justify-center space-x-4 '>
                     <div onClick={() => router.push("/#pricing")}>
                         <Button className='uppercase cursor-pointer font-medium bg-foreground transition-colors duration-300'>
-                            be pro
+                            Apply Now
                         </Button>
                     </div>
                     <div onClick={() => router.push("/vault/waitlist")}>

@@ -7,12 +7,6 @@ import { useRouter } from "next/navigation";
 import MarqueeFooter from "@/utils/MarqueeFooter";
 import { HeroVideo } from "@/utils/VideoComponent";
 
-const HomeDetails = [
-  { title: "manifesto", description: " We design perception. We're for the ones who dare to be loud without shouting. Who build in public, with a wild heart and a clean layout. If your vision shakes the ground — we'll give it the face it deserves." },
-  { title: "companies", description: "Partners in rebellion. Every brand we build with becomes a part of our tribe. If you made it to this wall, it means you didn't just pay us — you sparked with us. These are our portfolio companies — where fire met form" },
-  { title: "go pro", description: "Great brands don't wait. They go pro. Pick your tier, drop the brief, and let's turn your chaos into clarity. Whether it's just design or design + code — we go beast mode either way" },
-]
-
 const Hero = () => {
   const router = useRouter();
 
@@ -37,7 +31,7 @@ const Hero = () => {
               We create
             </h1>
             <h1 className="tracking-tighter alise text-4xl md:text-8xl font-bold  uppercase  bebas">
-              <div className="h-7 w-14 md:w-32 md:h-20 bg-foreground rounded-lg inline-block"></div> scroll-stopping
+              scroll-stopping
             </h1>
             <h1 className=" text-4xl md:text-8xl font-bold bebas uppercase tracking-tighter">landing pages</h1>
           </div>
@@ -47,8 +41,8 @@ const Hero = () => {
           </div>
 
           <div className="mb-14 flex flex-col md:flex-row justify-start gap-7 item-start md:items-start md:justify-start w-full md:w-auto">
-            <Button onClick={() => router.push("/#contactus")} className="font-semibold cursor-pointer bebas rounded-xl px-7 py-5 bg-foreground text-background uppercase ">Initiate project</Button>
-            <Button className="font-semibold cursor-pointer hover:bg-sidebar-accent hover:text-muted-foreground bebas transition-color duration-300 rounded-xl px-7 py-5 bg-muted text-foreground uppercase">Explore the valut</Button>
+            <Button onClick={() => router.push("/#contactus")} className="font-semibold cursor-pointer bebas rounded-xl px-7 py-5 bg-foreground text-background uppercase ">Apply Now</Button>
+            <Button onClick={() => router.push("/vault/waitlist")} className="font-semibold cursor-pointer hover:bg-sidebar-accent hover:text-muted-foreground bebas transition-color duration-300 rounded-xl px-7 py-5 bg-muted text-foreground uppercase">Explore the vault</Button>
           </div>
           <div>
             <HeroVideo />
