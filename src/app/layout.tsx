@@ -4,6 +4,16 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Analytics } from '@vercel/analytics/next';
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import {
+  ClerkProvider,
+  SignInButton,
+  SignUpButton,
+  SignedIn,
+  SignedOut,
+  UserButton,
+} from '@clerk/nextjs'
+import { dark, shadcn } from '@clerk/themes'
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -41,7 +51,7 @@ export const metadata: Metadata = {
     "conversion-focused design",
     "fast design delivery",
     "design for startups",
-    "indie hacker design",  
+    "indie hacker design",
     "founder programs",
     "design manifesto",
     "investment",
@@ -96,21 +106,28 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased]`}
-      >
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="dark"
-          enableSystem
-          disableTransitionOnChange
+    <ClerkProvider 
+    waitlistUrl="/vault/waitlist"
+    appearance={{
+        baseTheme: shadcn,
+    }}
+    >
+      <html lang="en" suppressHydrationWarning>
+        <body
+          className={`${geistSans.variable} ${geistMono.variable} antialiased]`}
         >
-          {children}
-          <Analytics/>
-          <SpeedInsights/>
-        </ThemeProvider>
-      </body>
-    </html>
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="dark"
+            enableSystem
+            disableTransitionOnChange
+          >
+            {children}
+            <Analytics />
+            <SpeedInsights />
+          </ThemeProvider>
+        </body>
+      </html>
+    </ClerkProvider>
   );
 }

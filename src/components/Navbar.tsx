@@ -38,7 +38,7 @@ const Navbar = () => {
                             be pro
                         </Button>
                     </div>
-                    <div onClick={() => router.push("/vault")}>
+                    <div onClick={() => router.push("/vault/waitlist")}>
                         <Button className='uppercase cursor-pointer font-medium bg-secondary text-foreground border-1 border-border hover:bg-foreground hover:text-background transition-colors duration-300'>
                             the vault
                         </Button>

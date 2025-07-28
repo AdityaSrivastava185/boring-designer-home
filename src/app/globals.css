@@ -139,6 +139,13 @@ body{
   background-attachment: fixed;
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+}
+
 
 .bebas{
   font: 'Bebas Neue', cursive;
