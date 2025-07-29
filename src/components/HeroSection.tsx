@@ -21,19 +21,19 @@ const Hero = () => {
                 <div className="mr-2 h-2 w-2 rounded-full animate-pulse bg-foreground"></div>
               </div>
               <span className="text-xs md:tracking-tight font-semibold uppercase pr-2 md:pr-1 bebas text-foreground">
-                The vault is going to be live soon
+                Join the waitlist for the vault :)
               </span>
             </div>
           </div>
 
           <div className="mt-4 mb-4">
-            <h1 className=" uppercase alise text-4xl md:text-8xl font-bold bebas tracking-tighter">
-              We create
+            <h1 className="text-balance uppercase alise text-3xl md:text-8xl font-bold bebas tracking-tighter">
+              We are
             </h1>
-            <h1 className="tracking-tighter alise text-4xl md:text-8xl font-bold  uppercase  bebas">
-              scroll-stopping
+            <h1 className="tracking-tighter alise text-3xl md:text-8xl font-bold  uppercase text-balance  bebas">
+              your product's
             </h1>
-            <h1 className=" text-4xl md:text-8xl font-bold bebas uppercase tracking-tighter">landing pages</h1>
+            <h1 className=" text-3xl md:text-8xl font-bold bebas uppercase tracking-tighter text-balance">dev partners</h1>
           </div>
           <div className=" mb-7 md:max-w-[50%] max-w-[90%]">
             <p className=" text-muted-foreground text-xs md:text-lg bebas uppercase md:leading-5">You build the vision — we shape the face of it.

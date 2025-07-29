@@ -15,7 +15,7 @@ const Pricing = () => {
                                 A necessary investment for your startup or your personal brand.
                             </h1>
                         </div>
-                        <h4 className='text-muted-foreground jetbrains-mono md:tracking-tighter  text-wrap uppercase md:text-2xl text-sm mx-auto'>Go Pro with Boring Designer — your unfair design advantage.
+                        <h4 className='text-muted-foreground jetbrains-mono md:tracking-tighter  text-wrap uppercase md:text-2xl text-sm mx-auto md:text-center'>Go Pro with Boring Designer — your unfair design advantage.
                             For founders, indie hackers, and early-stage startups who are serious about standing out — we craft sharp, minimal, conversion-obsessed design that turns bold digital ideas into unstoppable brands.</h4>
 
                         <h4 className='text-muted-foreground jetbrains-mono md:tracking-tighter md:max-w-[50vw] text-wrap uppercase md:text-2xl text-sm mt-7 mx-auto'>This isn&apos;t a portfolio. It&apos;s a gallery of the bold.
