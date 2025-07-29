@@ -42,7 +42,7 @@ const Hero = () => {
 
           <div className="mb-14 flex flex-col md:flex-row justify-start gap-7 item-start md:items-start md:justify-start w-full md:w-auto">
             <Button onClick={() => router.push("/#contactus")} className="font-semibold cursor-pointer bebas rounded-xl px-7 py-5 bg-foreground text-background uppercase ">Apply Now</Button>
-            <Button onClick={() => router.push("/vault/waitlist")} className="font-semibold cursor-pointer hover:bg-sidebar-accent hover:text-muted-foreground bebas transition-color duration-300 rounded-xl px-7 py-5 bg-muted text-foreground uppercase">Explore the vault</Button>
+            <Button onClick={() => router.push("/vault/waitlist")} className="font-semibold cursor-pointer hover:bg-sidebar-accent hover:text-muted-foreground bebas transition-color duration-300 rounded-xl px-7 py-5 bg-muted text-foreground uppercase">Join the waitlist for the vault</Button>
           </div>
           <div>
             <HeroVideo />

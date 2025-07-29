@@ -40,7 +40,7 @@ const Navbar = () => {
                     </div>
                     <div onClick={() => router.push("/vault/waitlist")}>
                         <Button className='uppercase cursor-pointer font-medium bg-secondary text-foreground border-1 border-border hover:bg-foreground hover:text-background transition-colors duration-300'>
-                            the vault
+                            join the vault
                         </Button>
                     </div>
                 </div>

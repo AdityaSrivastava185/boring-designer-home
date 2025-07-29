@@ -80,15 +80,15 @@ export function HamburgerMenu() {
             <div className="mt-6 mb-3 flex flex-col md:flex-row justify-start gap-3 md:gap-7 item-start md:items-start md:justify-start w-full md:w-auto">
               <Button
                 onClick={() => handleLinkClick("/#contactus")}
-                className="font-semibold cursor-pointer bebas rounded-xl px-7 py-5 bg-foreground text-background uppercase"
+                className="font-semibold cursor-pointer bebas rounded-xl px-7 py-5 bg-foreground text-background uppercase w-full"
               >
-                Initiate project
+                Apply Now
               </Button>
               <Button
                 onClick={() => handleLinkClick("/#vault")}
-                className="font-semibold cursor-pointer hover:bg-sidebar-accent hover:text-muted-foreground bebas transition-color duration-300 rounded-xl px-7 py-5 bg-muted text-foreground uppercase"
+                className="font-semibold cursor-pointer hover:bg-sidebar-accent hover:text-muted-foreground bebas transition-color duration-300 rounded-xl px-7 py-5 bg-muted text-foreground uppercase w-full"
               >
-                Explore the vault
+                Join the Vault
               </Button>
             </div>
           </DrawerFooter>
