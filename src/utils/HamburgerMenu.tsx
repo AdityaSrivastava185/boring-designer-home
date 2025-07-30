@@ -61,7 +61,7 @@ export function HamburgerMenu() {
                   launching soon
                 </span>
               </button>
-              <button onClick={() => handleLinkClick("")} className="font-medium bebas uppercase text-xs text-left">
+              <button onClick={() => handleLinkClick("/waitlist/vault")} className="font-medium bebas uppercase text-xs text-left">
                 vault
                 <span className="mx-2 rounded-full px-2 py-1 text-xs bebas uppercase text-foreground border border-foreground animate-pulse">
                   launching soon
