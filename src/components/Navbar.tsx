@@ -44,9 +44,9 @@ const Navbar = () => {
                         </Button>
                     </div>
                 </div>
-                <div className='md:hidden block'>
+                {/* <div className='md:hidden block'>
                     <HamburgerMenu />
-                </div>
+                </div> */}
             </div>
         </nav>
     );

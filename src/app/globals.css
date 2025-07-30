@@ -124,6 +124,10 @@
   }
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   background-image: url('/bg-pattern.png');
   background-size: cover;
