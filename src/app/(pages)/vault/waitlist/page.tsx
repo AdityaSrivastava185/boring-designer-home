@@ -10,8 +10,9 @@ const Page = () => {
       <div className=' md:max-w-4xl mx-auto'>
         <h1 className=' text-6xl md:text-8xl font-bold text-center text-balance md:leading-20'>introducing the vault
         </h1>
-        <p className='text-md text-center text-muted-foreground md:text-2xl font-medium text-balance md:max-w-2xl mx-auto mt-5'> stop overthinking. pick the damn template.download the code. break it. bend it. make it yours.build the sh*t you actually want to build — and launch.
-          if you can't give your idea a try , <span className='text-foreground'>you should not be here</span>
+        <p className='text-md text-center text-muted-foreground md:text-2xl font-medium text-balance md:max-w-2xl mx-auto mt-5 leading-5 md:leading-7'> stop overthinking. pick the damn template.download the code. break it. bend it. make it yours.build the sh*t you actually want to build — and launch.
+        if you can't give your idea a try , <span className='text-foreground'>you should not be here
+        </span>
         </p>
         <p className='text-center font-medium text-balance md:max-w-lg mx-auto mt-5 text-xs'>join the waitlist and be the first to know when we launch. we will send the invite later for the community</p>
       </div>
