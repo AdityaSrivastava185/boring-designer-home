@@ -47,6 +47,11 @@ const Navbar = () => {
                 {/* <div className='md:hidden block'>
                     <HamburgerMenu />
                 </div> */}
+                <div className='md:hidden block'>
+                    <Button onClick={() => router.push("/vault/waitlist")} className='uppercase cursor-pointer font-medium bg-foreground text-background border-1 border-border hover:bg-foreground text-xs hover:text-background transition-colors  duration-300'>
+                            join the vault
+                        </Button>
+                </div>
             </div>
         </nav>
     );
