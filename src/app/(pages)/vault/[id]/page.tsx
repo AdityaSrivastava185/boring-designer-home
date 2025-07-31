@@ -16,11 +16,13 @@ const page = ({params} : Props) => {
 
   return (
     <div>
-      {tempalte.name && (
-        <h1 className='text-center text-2xl font-bold my-5'>{tempalte.name}</h1>
-      )}
     </div>
   )
 }
 
 export default page
+
+
+// {tempalte.name && (
+       // <h1 className='text-center text-2xl font-bold my-5'>{tempalte.name}</h1>
+     // )}
