@@ -30,11 +30,11 @@ const Hero = () => {
           </div>
 
           <div className="mt-4 mb-4 max-w-2xl md:max-w-3xl mx-auto text-balance">
-            <h1 className="text-balance alise text-4xl md:text-7xl font-bold bebas tracking-tighter text-center">
+            <h1 className="text-balance alise text-5xl md:text-7xl font-bold bebas tracking-tighter text-center">
               it's time to launch your vision faster.
             </h1>
           </div>
-          <div className=" my-7 md:max-w-[50%] max-w-[90%] mx-auto">
+          <div className=" my-4 md:my-7 md:max-w-[50%] max-w-[90%] mx-auto">
             <p className=" text-muted-foreground text-md md:text-lg bebas text-center md:leading-5">the space which helps ambitious founders, indie hackers & devs go live faster with ready-to-use templates — high-trust, high-conversion designs to match the power of your product.</p>
           </div>
 
