@@ -30,7 +30,7 @@ const Hero = () => {
           </div>
 
           <div className="mt-4 mb-4 max-w-3xl mx-auto text-balance">
-            <h1 className="max-w-2xl md:max-w-3xl text-balance alise text-6xl md:text-7xl font-bold bebas tracking-tighter text-center">
+            <h1 className="max-w-xl md:max-w-3xl text-balance alise text-4xl md:text-7xl font-bold bebas tracking-tighter text-center">
               it's time to launch your vision faster.
             </h1>
           </div>
