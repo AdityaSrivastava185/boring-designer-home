@@ -23,14 +23,14 @@ const Navbar = () => {
                             priority
                         />
                     </div>
-                    <div className='hidden md:block'>
+                    {/* <div className='hidden md:block'>
                         <ul className='flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0 md:space-x-8 uppercase text-sm text-muted-foreground transition-colors duration-300'>
                             <Link href="/#manifesto" className='font-medium hover:text-foreground transition-colors duration-300'>manifesto</Link>
                             <Link href="/" className='font-medium hover:text-foreground transition-colors duration-300'>portfolio companies</Link>
                             <Link href="/#pricing" className='font-medium hover:text-foreground transition-colors duration-300'>pricing</Link>
                             <Link href="/#contactus" className='font-medium hover:text-foreground transition-colors duration-300'>connect</Link>
                         </ul>
-                    </div>
+                    </div> */}
                 </div>
                 <div className='hidden md:flex items-center justify-center space-x-4 '>
                     <div onClick={() => router.push("/#pricing")}>

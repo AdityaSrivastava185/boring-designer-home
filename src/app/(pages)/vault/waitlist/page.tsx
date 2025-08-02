@@ -10,9 +10,9 @@ const Page = () => {
       <div className=' md:max-w-4xl mx-auto'>
         <h1 className=' text-6xl md:text-8xl font-bold text-center text-balance md:leading-20'>introducing the vault
         </h1>
-        <p className='text-md text-center text-muted-foreground md:text-2xl font-medium text-balance md:max-w-3xl mx-auto mt-5 leading-5 md:leading-7'> The Vault is a curated drop of unique web templates — inspired by real products, real founders.Pick a template. Download the code. Tweak it. Launch your thing.Each template comes with a full case study of the founder and the product that inspired it.No fluff. Just the tools to help you ship faster
+        <p className='text-md text-center text-muted-foreground md:text-xl font-medium text-balance md:max-w-3xl mx-auto mt-5 leading-5 md:leading-7'>the vault is a drop of battle-tested web templates, inspired by real products. Get the code, the story behind it, and launch fast. No fluff — just launch-ready tools.
         </p>
-        <p className='text-center font-medium text-balance md:max-w-lg mx-auto mt-5 text-xs'>join the waitlist and be the first to know when we launch. we will send the invite later for the community</p>
+        <p className='text-center font-medium text-balance md:max-w-lg mx-auto mt-5 text-md'>join the waitlist and be the first to know when we launch. we will send the invite later for the community</p>
       </div>
       <div className="hidden md:flex md:mt-10 flex-col items-center justify-center">
         <div className="w-full max-w-sm md:max-w-3xl">
