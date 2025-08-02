@@ -35,7 +35,7 @@ const Hero = () => {
             </h1>
           </div>
           <div className=" my-7 md:max-w-[50%] max-w-[90%] mx-auto">
-            <p className=" text-muted-foreground text-xs md:text-lg bebas text-center md:leading-5">the space which helps ambitious founders, indie hackers & devs go live faster with ready-to-use templates — high-trust, high-conversion designs to match the power of your product.</p>
+            <p className=" text-muted-foreground text-sm md:text-lg bebas text-center md:leading-5">the space which helps ambitious founders, indie hackers & devs go live faster with ready-to-use templates — high-trust, high-conversion designs to match the power of your product.</p>
           </div>
 
           <div className="mb-14 flex flex-col md:flex-row items-center justify-center gap-7 max-w-[14rem] w-full mx-auto">
