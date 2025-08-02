@@ -19,7 +19,7 @@ const Hero = () => {
       <div className="max-width">
         <div className="md:mt-7 mb-7 ">
           <div className="flex items-center justify-center cursor-pointer" onClick={() => router.push('/vault/waitlist')}>
-            <div className="px-2 py-2 inline-flex items-center justify-center md:px-5 md:py-2 rounded-full border-2 border-border bg-[#111111] text-muted-foreground mb-2 md:mt-0 md:mb-0 mx-auto mt-10">
+            <div className="px-2 py-2 inline-flex items-center justify-center md:px-5 md:py-2 rounded-full border-2 border-border bg-[#111111] text-muted-foreground mb-2 md:mt-0 md:mb-0 mx-auto mt-12">
               <div className="mr-2 h-3 w-3 rounded-full animate-pulse bg-foreground">
                 <div className="mr-2 h-2 w-2 rounded-full animate-pulse bg-foreground"></div>
               </div>
@@ -30,19 +30,19 @@ const Hero = () => {
           </div>
 
           <div className="mt-4 mb-4 max-w-3xl mx-auto text-balance">
-            <h1 className="text-balance  alise text-4xl md:text-7xl font-bold bebas tracking-tighter text-center">
+            <h1 className="text-balance  alise text-6xl md:text-7xl font-bold bebas tracking-tighter text-center">
               it's time to launch your vision faster.
             </h1>
           </div>
           <div className=" my-7 md:max-w-[50%] max-w-[90%] mx-auto">
-            <p className=" text-muted-foreground text-sm md:text-lg bebas text-center md:leading-5">the space which helps ambitious founders, indie hackers & devs go live faster with ready-to-use templates — high-trust, high-conversion designs to match the power of your product.</p>
+            <p className=" text-muted-foreground text-md md:text-lg bebas text-center md:leading-5">the space which helps ambitious founders, indie hackers & devs go live faster with ready-to-use templates — high-trust, high-conversion designs to match the power of your product.</p>
           </div>
 
           <div className="mb-14 flex flex-col md:flex-row items-center justify-center gap-7 max-w-[14rem] w-full mx-auto">
             <Button onClick={() => router.push("/#contactus")} className="font-semibold cursor-pointer bebas rounded-xl px-7 py-5 bg-foreground text-background w-full">apply now</Button>
             <Button onClick={() => router.push("/vault/waitlist")} className="font-semibold cursor-pointer hover:bg-sidebar-accent hover:text-muted-foreground bebas transition-color duration-300 rounded-xl px-7 py-5 bg-muted text-foreground w-full ">Join the waitlist for the vault</Button>
           </div>
-          <div className="md:max-w-xl max-w-[90%] mx-auto px-8 space-y-6 ">
+          <div className="md:max-w-xl max-w-[90%] mx-auto md:px-8 px-4 space-y-6 ">
             <p className=" text-md">most early-stage builders spend hours scrolling through Dribbble, remixing Figma kits, or DM&apos;ing friends for design feedback.
             </p>
             <p>
