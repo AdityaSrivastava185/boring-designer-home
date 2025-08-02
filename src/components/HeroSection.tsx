@@ -19,7 +19,7 @@ const Hero = () => {
       <div className="max-width">
         <div className="md:mt-7 mb-7 ">
           <div className="flex items-center justify-center cursor-pointer" onClick={() => router.push('/vault/waitlist')}>
-            <div className="px-2 py-2 inline-flex items-center justify-center md:px-5 md:py-2 rounded-full border-2 border-border bg-[#111111] text-muted-foreground mb-2 md:mt-0 md:mb-0 mx-auto mt-7">
+            <div className="px-2 py-2 inline-flex items-center justify-center md:px-5 md:py-2 rounded-full border-2 border-border bg-[#111111] text-muted-foreground mb-2 md:mt-0 md:mb-0 mx-auto mt-10">
               <div className="mr-2 h-3 w-3 rounded-full animate-pulse bg-foreground">
                 <div className="mr-2 h-2 w-2 rounded-full animate-pulse bg-foreground"></div>
               </div>
