@@ -3,16 +3,16 @@ import React from 'react'
 import Image from 'next/image'
 
 interface Template {
-  id: string | number;
-  name: string;
-  price: string;
-  imageSrc: string;
-  imageAlt: string;
-  href?: string;
+    id: string | number;
+    name: string;
+    price: string;
+    imageSrc: string;
+    imageAlt: string;
+    href?: string;
 }
 
 interface TemplateCardProps {
-  template: Template;
+    template: Template;
 }
 
 const TemplateCards: React.FC<TemplateCardProps> = ({ template }) => {

@@ -39,8 +39,8 @@ const Hero = () => {
           </div>
 
           <div className="mb-14 flex flex-col md:flex-row items-center justify-center gap-7 max-w-[14rem] w-full mx-auto">
-            <Button onClick={() => router.push("/#contactus")} className="font-semibold cursor-pointer bebas rounded-xl px-7 py-5 bg-foreground text-background w-full">apply now</Button>
-            <Button onClick={() => router.push("/vault/waitlist")} className="font-semibold cursor-pointer hover:bg-sidebar-accent hover:text-muted-foreground bebas transition-color duration-300 rounded-xl px-7 py-5 bg-muted text-foreground w-full ">Join the waitlist for the vault</Button>
+            {/* <Button onClick={() => router.push("/#contactus")} className="font-semibold cursor-pointer bebas rounded-xl px-7 py-5 bg-foreground text-background w-full">apply now</Button> */}
+            <Button onClick={() => router.push("/vault/waitlist")} className="font-semibold cursor-pointer hover:bg-sidebar-accent hover:text-muted-foreground bebas transition-color duration-300 rounded-xl px-7 py-5 bg-foreground text-background w-full ">Join the waitlist for the vault</Button>
           </div>
           <div className="md:max-w-xl max-w-[90%] mx-auto md:px-8 px-4 space-y-6 ">
             <p className=" text-md">most early-stage builders spend hours scrolling through Dribbble, remixing Figma kits, or DM&apos;ing friends for design feedback.

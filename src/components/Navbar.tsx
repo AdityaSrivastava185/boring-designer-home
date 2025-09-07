@@ -33,11 +33,11 @@ const Navbar = () => {
                     </div> */}
                 </div>
                 <div className='hidden md:flex items-center justify-center space-x-4 '>
-                    <div onClick={() => router.push("/#pricing")}>
+                    {/* <div onClick={() => router.push("/#pricing")}>
                         <Button className='uppercase cursor-pointer font-medium bg-foreground transition-colors duration-300'>
                             Apply Now
                         </Button>
-                    </div>
+                    </div> */}
                     <div onClick={() => router.push("/vault/waitlist")}>
                         <Button className='uppercase cursor-pointer font-medium bg-secondary text-foreground border-1 border-border hover:bg-foreground hover:text-background transition-colors duration-300'>
                             join the vault
